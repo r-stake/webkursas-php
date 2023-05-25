@@ -35,3 +35,11 @@ galleryItems.forEach((item) => {
     item.classList.add('clicked');
   });
 });
+
+
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}

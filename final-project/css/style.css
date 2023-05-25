@@ -38,13 +38,23 @@ ul {
     border: solid 1px yellow;
 }
 
+
 /* HEADER */
 
 .background {
     background-image: url(../images/background/backgroud-hero2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
+    position: absolute;
+    width: 100%;
+    height: 1280px;
+    right: auto;
+    z-index: -1;
+}
+
+.site-header .container {
+    max-width: 1391px;
 }
 
 .site-header .flex-container {
@@ -94,36 +104,65 @@ ul {
 
 .hero .container h1 {
     font-size: 7.5rem;
-    font-weight: bold;
+    font-weight: 700;
     letter-spacing: -2%;
-    line-height: auto;
+    line-height: 100%;
     margin-bottom: 20px;
 }
 
 .hero .container h2 {
     font-size: 1.125rem;
-    font-weight: bold;
+    font-weight: 700;
     letter-spacing: 10%;
-    line-height: auto;
+    line-height: 100%;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
 
 .hero .container p {
     font-size: 1.0625rem;
-    letter-spacing: 0%;
     max-width: 650px;
-    margin: 0 auto 300px;
+    line-height: 150%;
+    margin: 0 auto;
     border: solid 1px black;
 }
 
-.social-header .flex-container {
-    justify-content: space-between;
+.social-header .gradient {
+    position: absolute;
+    width: 1920px;
+    height: 377px;
+    bottom: -363px;
+    background: linear-gradient(to bottom, rgba(1, 22, 39, 0) 0%, #011627 76.64%, #011627 100%);
+    z-index: -1;
+    border: 1px solid goldenrod;
 }
 
-/* .social-header {
-    margin-bottom: 200px;
-} */
+.social-header .flex-container {
+    justify-content: flex-end;
+}
+
+.social-header .container.flex-container {
+    max-width: 1391px;
+    margin-top: 500px;
+}
+
+.scroll {
+    position: fixed;
+    top: 45%;
+    left: 273px;
+    transform: translateY(-50%) rotate(270deg);
+    cursor: pointer;
+  }
+
+  .line {
+    position: fixed;
+    top: 50%;
+    left: 300px;
+    width: 2px;
+    height: 80px;
+    cursor: pointer;
+    border: 1px solid #09F4F4;
+  }
 
 .social-header li {
     padding-top: 15px;
@@ -136,6 +175,10 @@ ul {
 
 /* JOURNEY */
 
+.journey {
+    margin-top: 118px;
+}
+
 .journey .container .section-heading h2 {
     text-align: center;
     border: solid 1px magenta;
@@ -143,6 +186,7 @@ ul {
     font-weight: bold;
     line-height: 110%;
     letter-spacing: -2%;
+    margin-top: 0;
 }
 
 .journey-menu.flex-container {
@@ -186,16 +230,19 @@ ul {
     display: block;
 }
 
+.content .flex-container {
+    max-width: auto;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
 .journey-image img {
-    /* margin-top: 150px;
-    max-width: 500px; */
-    max-height: 607px;
     max-width: 486px;
     margin-bottom: 50px;
 }
 
 .journey-description {
-    align-self: center;
+    /* align-self: center; */
     margin-left: 125px;
     margin-right: 105px;
 }
@@ -212,7 +259,15 @@ ul {
 }
 
 .journey-description p {
+    font-weight: 700;
     font-size: 1.0625rem;
+    line-height: 150%;
+    letter-spacing: -2%;
+}
+
+.journey-description p:nth-of-type(2) {
+    font-weight: 400;
+    margin-bottom: 0;
 }
 
 .journey-description .button {

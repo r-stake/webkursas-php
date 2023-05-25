@@ -17,44 +17,46 @@
     <title>Gamtos Glėbyje</title>
 </head>
 <body>
-    <div class="background">
-        <header class="site-header">
-            <div class="container flex-container">
-                <div class="logo">
-                    <a href="./index.html"><img src="./images/logo.png" alt="#"></a>
-                </div>
-                <nav class="main-nav">
-                    <ul class="flex-container">
-                        <li><a href="#journey">Kelionės</a></li>
-                        <li><a href="#about-us">Apie mus</a></li>
-                        <li><a href="#testimonials">Atsiliepimai</a></li>
-                        <li><a href="#footer">Kontaktai</a></li>
-                    </ul>
-                </nav>
-                <button class="button">Menu</button>
+    <div class="background"></div>
+    <header class="site-header">
+        <div class="container flex-container">
+            <div class="logo">
+                <a href="./index.php"><img src="./images/logo.png" alt="#"></a>
             </div>
-        </header>
-        <section class="hero">
-            <div class="container">
-                <h1>Gamtos Glėbyje</h1>
-                <h2>Geriausios kokybiško ir aktyvaus poilsio vietos Lietuvoje</h2>
-                <p>Jaučiatės pavargę, įsitempę, negalėte atplėšti akių nuo savo išmaniųjų įrenginių ir juose tūnančių socialinių tinklų ar darbinio pašto paskyros? Sveikiname - jums reikalingas poilsis. Mūsų kruopščiai atrinkti nuotykiai gamtoje leis pamiršti gyvenimo nuoskaudas ir sunkumus. Šioje svetainėje rasite įvairių pasiūlymų tiek ramesnį poilsį mėgstantiems, tiek užkietėjusiems gamtos entuziastams.</p>
+            <nav class="main-nav">
+                <ul class="flex-container">
+                    <li><a href="#journey">Kelionės</a></li>
+                    <li><a href="#about-us">Apie mus</a></li>
+                    <li><a href="#testimonials">Atsiliepimai</a></li>
+                    <li><a href="#footer">Kontaktai</a></li>
+                </ul>
+            </nav>
+            <button class="button">Menu</button>
+        </div>
+    </header>
+    <div class="hero">
+        <div class="container">
+            <h1>Gamtos Glėbyje</h1>
+            <h2>Geriausios kokybiško ir aktyvaus poilsio vietos Lietuvoje</h2>
+            <p>Jaučiatės pavargę, įsitempę, negalėte atplėšti akių nuo savo išmaniųjų įrenginių ir juose tūnančių socialinių tinklų ar darbinio pašto paskyros? Sveikiname - jums reikalingas poilsis. Mūsų kruopščiai atrinkti nuotykiai gamtoje leis pamiršti gyvenimo nuoskaudas ir sunkumus. Šioje svetainėje rasite įvairių pasiūlymų tiek ramesnį poilsį mėgstantiems, tiek užkietėjusiems gamtos entuziastams.</p>
+        </div>
+    </div>  
+    <div class="social-header">
+        <div class="gradient">
+        </div>
+        <div class="container flex-container">
+            <div class="scroll" onclick="scrollToTop()">
+                SCROLL
             </div>
-            <div class="social-header">
-                <div class="container flex-container">
-                    <div class="scroll">
-                        SCROLL
-                    </div>
-                    <div class="social">
-                        <ul>
-                            <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-                            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="line" onclick="scrollToTop()"></div>
+            <div class="social">
+                <ul>
+                    <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                    <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                    <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                </ul>
             </div>
-        </section>
+        </div>
     </div>
     <main>
         <section class="journey" id="journey">
@@ -86,7 +88,7 @@
                             </div>
                             <div class="journey-description">
                                 <h2>Sugalvok norą</h2>
-                                <p><strong>Mėgstate gamtą, bet nenorite ilgo žygio? Pažvelkite aukštyn - meteorų lietus teiks džiaugsmo ir nuotykių!</strong></p>
+                                <p>Mėgstate gamtą, bet nenorite ilgo žygio? Pažvelkite aukštyn - meteorų lietus teiks džiaugsmo ir nuotykių!</p>
                                 <p>Paslaptingas meteorų lietaus stebėjimo renginys tikriems gamtos mylėtojams, ieškantiems ramybės. Pamatysite apie 60-100 meteorų per valandą, po vieną meteorą kas minutę. Prisijunkite prie mūsų gaivioje miško aplinkoje su laužais, kepiniais, muzika ir džiugiomis dainomis. Nedeslk, prisijunk prie mūsų! </p>
                                 <button class="button">Noriu! / Plačiau</button>
                                 <div class="social">
@@ -293,7 +295,7 @@
                                 <textarea name="message" cols="30" rows="10" placeholder="Jūsų žinutė mums..."></textarea>
                                 <div class="select-button flex-container">
                                     <select name="journey" form="registration-form" required>
-                                        <option disabled selected hidden>Pasirink savo nuotykį</option>
+                                        <option value="" disabled selected hidden>Pasirink savo nuotykį</option>
                                         <option value="stars">Meteorų lietus</option>
                                         <option value="forest">Senoji giria</option>
                                         <option value="dunes">Pamirštoji dykuma</option>
