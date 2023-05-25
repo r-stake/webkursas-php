@@ -61,16 +61,16 @@
                     </div>
                     <div class="journey-menu flex-container">
                         <div class="journey-menu-item">
-                            <button href="" class="active" onclick="switchContent(0)">Meteorų lietus</button>
+                            <button class="active" onclick="switchContent(0)">Meteorų lietus</button>
                         </div>
                         <div class="journey-menu-item">
-                            <button href="" onclick="switchContent(1)">Senoji giria</button>
+                            <button onclick="switchContent(1)">Senoji giria</button>
                         </div>
                         <div class="journey-menu-item">
-                            <button href="" onclick="switchContent(2)">Pamirštoji dykuma</button>
+                            <button onclick="switchContent(2)">Pamirštoji dykuma</button>
                         </div>
                         <div class="journey-menu-item">
-                            <button href="" onclick="switchContent(3)">Rūščioji upė</button>
+                            <button onclick="switchContent(3)">Rūščioji upė</button>
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                             </div>
                             <div class="journey-description">
                                 <h2>Sugalvok norą</h2>
-                                <p><strong>Mėgstate gamtą, bet nenorite ilgo žygio? Pažvelkite aukštyn - meteorų lietus teiks džiaugsmo ir nuotykių!<strong></p>
+                                <p><strong>Mėgstate gamtą, bet nenorite ilgo žygio? Pažvelkite aukštyn - meteorų lietus teiks džiaugsmo ir nuotykių!</strong></p>
                                 <p>Paslaptingas meteorų lietaus stebėjimo renginys tikriems gamtos mylėtojams, ieškantiems ramybės. Pamatysite apie 60-100 meteorų per valandą, po vieną meteorą kas minutę. Prisijunkite prie mūsų gaivioje miško aplinkoje su laužais, kepiniais, muzika ir džiugiomis dainomis. Nedeslk, prisijunk prie mūsų! </p>
                                 <button class="button">Noriu! / Plačiau</button>
                                 <div class="social">
@@ -275,18 +275,18 @@
                     <h3>Apsisprendėte? Tuomet nedelskite ir užsiregistruokite</h3>
                 </div>
                 <div class="section-content">
-                    <form action="" class="input-row">
+                    <form action="index.php" method="post" class="input-row" id="registration-form">
                         <div>
-                            <input type="text" placeholder="Vardas" required>
-                            <input type="text" placeholder="Pavardė" required>
+                            <input type="text" placeholder="Jūsų vardas" required>
+                            <input type="text" placeholder="Jūsų pavardė" required>
                         </div>
                         <div>
                             <input type="tel" placeholder="Telefono numeris:" required>
-                            <input type="email" placeholder="El.paštas" required>
+                            <input type="email" placeholder="Jūsų el. pašto adresas" required>
                         </div>
                         <div>
                             <div class="flex-container">
-                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                                <textarea name="message" cols="30" rows="10" placeholder="Jūsų žinutė mums..."></textarea>
                                 <div class="select-button flex-container">
                                     <select name="" id="" required>
                                         <option disabled selected hidden>Pasirink savo nuotykį</option>
@@ -295,7 +295,7 @@
                                         <option value="dunes">Pamirštoji dykuma</option>
                                         <option value="river">Rūščioji upė</option>
                                     </select>
-                                    <button>Registruotis</button>
+                                    <button name="submit" type="submit" id="registration-form">Registruotis</button>
                                 </div>
                             </div>
                         </div>
