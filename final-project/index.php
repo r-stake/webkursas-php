@@ -1,5 +1,9 @@
+<?php
+    require __DIR__. '/src/app.php';
+?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -277,25 +281,25 @@
                 <div class="section-content">
                     <form action="index.php" method="post" class="input-row" id="registration-form">
                         <div>
-                            <input type="text" placeholder="Jūsų vardas" required>
-                            <input type="text" placeholder="Jūsų pavardė" required>
+                            <input type="text" name="vardas" placeholder="Jūsų vardas" required>
+                            <input type="text" name="pavarde" placeholder="Jūsų pavardė" required>
                         </div>
                         <div>
-                            <input type="tel" placeholder="Telefono numeris:" required>
-                            <input type="email" placeholder="Jūsų el. pašto adresas" required>
+                            <input type="tel" name="telefonas" placeholder="Telefono numeris:" required>
+                            <input type="email" name="email" placeholder="Jūsų el. pašto adresas" required>
                         </div>
                         <div>
                             <div class="flex-container">
                                 <textarea name="message" cols="30" rows="10" placeholder="Jūsų žinutė mums..."></textarea>
                                 <div class="select-button flex-container">
-                                    <select name="" id="" required>
+                                    <select name="journey" form="registration-form" required>
                                         <option disabled selected hidden>Pasirink savo nuotykį</option>
                                         <option value="stars">Meteorų lietus</option>
                                         <option value="forest">Senoji giria</option>
                                         <option value="dunes">Pamirštoji dykuma</option>
                                         <option value="river">Rūščioji upė</option>
                                     </select>
-                                    <button name="submit" type="submit" id="registration-form">Registruotis</button>
+                                    <button name="submit" type="submit">Registruotis</button>
                                 </div>
                             </div>
                         </div>
