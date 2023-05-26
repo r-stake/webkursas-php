@@ -17,7 +17,13 @@
     <title>Gamtos Glėbyje</title>
 </head>
 <body>
-    <div class="background"></div>
+    <div class="background-gradient">
+    <div class="background">
+        
+    </div>
+    <div class="gradient"></div>
+    </div>
+
     <header class="site-header">
         <div class="container flex-container">
             <div class="logo">
@@ -42,8 +48,6 @@
         </div>
     </div>  
     <div class="social-header">
-        <div class="gradient">
-        </div>
         <div class="container flex-container">
             <div class="scroll" onclick="scrollToTop()">
                 SCROLL

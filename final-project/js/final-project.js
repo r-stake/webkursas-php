@@ -43,3 +43,21 @@ function scrollToTop() {
     behavior: 'smooth'
   });
 }
+
+function toggleMainNav() {
+  let x = document.getElementById("Menu");
+            if (x.style.display === "block") {
+                x.style.display = "none"
+            } else {
+                x.style.display = "block"
+            }
+}
+
+function myFunction() {
+  let x = document.getElementById("mMenu");
+  if (x.style.display === "block") {
+      x.style.display = "none"
+  } else {
+      x.style.display = "block"
+  }
+}

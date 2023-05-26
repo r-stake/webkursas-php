@@ -22,10 +22,10 @@ ul {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1250px;
     width: 100%;
     margin: 0 auto;
-    /* padding: 25px; */
+    padding: 0 25px;
     border: solid 1px magenta;
 }
 
@@ -39,18 +39,28 @@ ul {
 }
 
 
-/* HEADER */
+/* ---------------------------------------------- HEADER ----------------------------- */
 
-.background {
+.background-gradient .background {
     background-image: url(../images/background/backgroud-hero2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /* background-attachment: fixed; */
     position: absolute;
-    width: 100%;
+    width: 100%;  /*------------------------- Problemos------------------------------*/
     height: 1280px;
     right: auto;
     z-index: -1;
+}
+
+.background-gradient .gradient {  /*------------------Gradientas------------------------------*/
+    position: absolute;
+    width: 1920px;
+    height: 377px;
+    bottom: -420px;
+    background: linear-gradient(to bottom, rgba(1, 22, 39, 0) 0%, #011627 76.64%, #011627 100%);
+    z-index: -1;
+    border: 1px solid green;
 }
 
 .site-header .container {
@@ -96,7 +106,7 @@ ul {
     cursor: pointer;
 }
 
-/* HERO */
+/* --------------------------------------------------- HERO ------------------------------------------------ */
 
 .hero {
     text-align: center;
@@ -127,16 +137,6 @@ ul {
     border: solid 1px black;
 }
 
-.social-header .gradient {
-    position: absolute;
-    width: 1920px;
-    height: 377px;
-    bottom: -363px;
-    background: linear-gradient(to bottom, rgba(1, 22, 39, 0) 0%, #011627 76.64%, #011627 100%);
-    z-index: -1;
-    border: 1px solid goldenrod;
-}
-
 .social-header .flex-container {
     justify-content: flex-end;
 }
@@ -147,7 +147,7 @@ ul {
 }
 
 .scroll {
-    position: fixed;
+    position: fixed; /*---------------------------------Problemos---------------------*/
     top: 45%;
     left: 273px;
     transform: translateY(-50%) rotate(270deg);
@@ -155,7 +155,7 @@ ul {
   }
 
   .line {
-    position: fixed;
+    position: fixed; /*---------------------------------Problemos---------------------*/
     top: 50%;
     left: 300px;
     width: 2px;
@@ -173,7 +173,7 @@ ul {
     font-size: 1.5rem;
 }
 
-/* JOURNEY */
+/* ---------------------------------------------------- JOURNEY -----------------------------------------------*/
 
 .journey {
     margin-top: 118px;
@@ -278,11 +278,11 @@ ul {
     font-weight: bold;
     text-transform: uppercase;
     border: none;
-    font-size: 0.875rem;
+    font-size: 0.875rem; 
     line-height: 190%;
     letter-spacing: 15%;
-    width: 282px;
-    height: 65px;
+    width: 282px; /* ---------------------------------------- Problemos */
+    height: 65px; /* ---------------------------------------- Problemos */
     cursor: pointer;
     margin-top: 45px;
 }
@@ -313,7 +313,7 @@ i {
     flex-wrap: wrap;
 }
 
-/* About us */
+/* ------------------------------------------------- About us ------------------------------------------*/
 
 .about-us {
     margin-top: 268px;
@@ -371,7 +371,7 @@ i {
     margin-left: 80px; /* Tarpas tarp teksto ir nuotraukų */
 }
 
-/* About us overlay */
+/* ----------------------------------------------- About us overlay ------------------------------------------*/
 
 .gallery-item {
     position: relative;
@@ -440,7 +440,7 @@ i {
 }
 
 
-/* Testimonials */
+/* ------------------------------------------------- Testimonials ---------------------------------------------*/
 
 .testimonials .testimonials-header {
     flex-direction: column;
@@ -633,7 +633,7 @@ i {
 }
 
 
-/* Footer */
+/* -------------------------------------------------------- Footer -----------------------------------------*/
 
 .footer-header {
     text-align: center;
