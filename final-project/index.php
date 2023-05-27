@@ -23,7 +23,7 @@
             <header class="site-header">
                 <div class="container flex-container">
                     <div class="logo">
-                        <a href="./index.html"><img src="./images/logo.png" alt="#"></a>
+                        <a href="./index.php"><img src="./images/logo.png" alt="#"></a>
                     </div>
                     <div class="flex-container">
                         <nav class="main-nav" id="Menu">
