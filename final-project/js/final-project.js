@@ -37,14 +37,14 @@ galleryItems.forEach((item) => {
 });
 
 
-function scrollToTop() {
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth'
-  });
+function scrollToJourney() {
+  const journeySection = document.querySelector('#journey');
+  const h2Element = journeySection.querySelector('h2');
+  
+  h2Element.scrollIntoView({ behavior: 'smooth' });
 }
 
-function toggleMainNav() {
+function mainNavigation() {
   let x = document.getElementById("Menu");
             if (x.style.display === "block") {
                 x.style.display = "none"
@@ -53,7 +53,7 @@ function toggleMainNav() {
             }
 }
 
-function myFunction() {
+function mobileNavigation() {
   let x = document.getElementById("mMenu");
   if (x.style.display === "block") {
       x.style.display = "none"

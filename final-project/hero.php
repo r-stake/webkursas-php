@@ -19,6 +19,7 @@
 </head>
 <body>
     <div class="background">
+        <div class="background-overlay"></div>
         <div class="container">
             <header class="site-header">
                 <div class="container flex-container">
@@ -34,6 +35,7 @@
                                 <li><a href="#footer">Kontaktai</a></li>
                             </ul>
                         </nav>
+                        <button class="main-nav-button button" onclick="mainNavigation()">Menu</button>
                         <nav class="mobile-nav flex-container">
                             <ul class="flex-container" id="mMenu">
                                 <li><a href="#journey">Kelionės</a></li>
@@ -41,11 +43,10 @@
                                 <li><a href="#testimonials">Atsiliepimai</a></li>
                                 <li><a href="#footer">Kontaktai</a></li>
                             </ul>
-                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <a href="javascript:void(0);" class="icon" onclick="mobileNavigation()">
                                 <i class="bi bi-list"></i>
                             </a>
                         </nav>
-                        <button class="main-nav-button button" onclick="toggleMainNav()">Menu</button>
                     </div>
                 </div>
             </header>
@@ -57,11 +58,14 @@
                 <p>Jaučiatės pavargę, įsitempę, negalėte atplėšti akių nuo savo išmaniųjų įrenginių ir juose tūnančių socialinių tinklų ar darbinio pašto paskyros? Sveikiname - jums reikalingas poilsis. Mūsų kruopščiai atrinkti nuotykiai gamtoje leis pamiršti gyvenimo nuoskaudas ir sunkumus. Šioje svetainėje rasite įvairių pasiūlymų tiek ramesnį poilsį mėgstantiems, tiek užkietėjusiems gamtos entuziastams.</p>
             </div>
         </div>
-        <div class="social-header">
+        <div class="hero-social">
             <div class="container flex-container">
-                <div class="scroll">
-                    SCROLL
-                </div>
+                <div class="scroll-line">
+                    <div class="scroll" onclick="scrollToJourney()">
+                        SCROLL
+                    </div>
+                    <div class="line" onclick="scrollToJourney()"></div>
+                </div>    
                 <div class="social">
                     <ul>
                         <li><a href="#"><i class="bi bi-twitter"></i></a></li>

@@ -25,7 +25,7 @@ ul {
     max-width: 1250px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 25px;
+    /* padding: 0 25px; */
     border: solid 1px magenta;
 }
 
@@ -41,30 +41,18 @@ ul {
 
 /* ---------------------------------------------- HEADER ----------------------------- */
 
-.background-gradient .background {
-    background-image: url(../images/background/backgroud-hero2.jpg);
+.background {
+    background-position: center;
+    background-image: linear-gradient(to bottom, rgba(1, 22, 39, 0) 0%, rgba(1, 22, 39, 0) 76%, rgba(1, 22, 39, 0) 76%, #011627 100%),
+    url(../images/background/backgroud-hero2.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    /* background-attachment: fixed; */
-    position: absolute;
-    width: 100%;  /*------------------------- Problemos------------------------------*/
-    height: 1280px;
-    right: auto;
-    z-index: -1;
+    background-size: cover;             /* Išjungus nuotrauką atvaizduojama maksimalaus aukščio */
+    /* background-attachment: fixed;       Išjungus nuotrauką atvaizduojama maksimalaus aukščio   */
 }
 
-.background-gradient .gradient {  /*------------------Gradientas------------------------------*/
-    position: absolute;
-    width: 1920px;
-    height: 377px;
-    bottom: -420px;
-    background: linear-gradient(to bottom, rgba(1, 22, 39, 0) 0%, #011627 76.64%, #011627 100%);
-    z-index: -1;
-    border: 1px solid green;
-}
-
-.site-header .container {
-    max-width: 1391px;
+.background .container {
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .site-header .flex-container {
@@ -77,33 +65,74 @@ ul {
     max-height: 68px;
 }
 
-.main-nav a {
+#Menu {
+    display: none;
+}
+
+.main-nav a,
+.mobile-nav a {
     color: white;
     text-decoration: none;
     font-size: 1rem;
     text-transform: uppercase;
     margin: 0 5px;
-    padding: 10px 17px;
+    padding: 20px 17px;
+    white-space: nowrap;
 }
 
 .main-nav a:hover,
-.main-nav a:active {
-    background-color: #06223a;
-    border-radius: 5px;
+.main-nav a:active,
+.mobile-nav a:hover,
+.mobile-nav a:active {
+    color: #00C9E0;
+}
+
+#mMenu {
+    position: absolute;
+    top: 65px;
+    right: 0%;
+    width: 100%;
+}
+
+.mobile-nav,
+.mobile-nav ul {
+    display: none;
+}
+
+.mobile-nav ul {
+    background-color: #011627;
+}
+
+.mobile-nav ul li {
+    margin: 0;
+    padding: 15px;
+    
+}
+
+.mobile-nav ul li a {
+    margin: 0;
+    padding: 15px;
+    padding-right: 85%;
+}
+
+.mobile-nav a i {
+    font-size: 2rem;
 }
 
 .site-header .button {
     background-color: #00C9E0;
-    /* padding: 31px 91px; */
-    border-radius: 48px;
     color: white;
-    font-weight: bold;
     text-transform: uppercase;
     border: none;
+    cursor: pointer;
+    border-radius: 48px;
+    font-weight: 700;
     font-size: 1rem;
+    letter-spacing: 10%;
+    line-height: 100%;
+    margin-left: 15px;
     width: 167px;
     height: 62px;
-    cursor: pointer;
 }
 
 /* --------------------------------------------------- HERO ------------------------------------------------ */
@@ -112,12 +141,18 @@ ul {
     text-align: center;
 }
 
+.hero .container {
+    max-width: 1200px;
+    margin-top: 156px;
+}
+
 .hero .container h1 {
     font-size: 7.5rem;
     font-weight: 700;
     letter-spacing: -2%;
     line-height: 100%;
     margin-bottom: 20px;
+    margin-top: 0;
 }
 
 .hero .container h2 {
@@ -137,46 +172,47 @@ ul {
     border: solid 1px black;
 }
 
-.social-header .flex-container {
-    justify-content: flex-end;
+.hero-social {
+    margin-top: 200px;
 }
 
-.social-header .container.flex-container {
-    max-width: 1391px;
-    margin-top: 500px;
+.hero-social .flex-container {
+    justify-content: space-between;
+}
+
+.scroll-line {
+    align-self: center;
 }
 
 .scroll {
-    position: fixed; /*---------------------------------Problemos---------------------*/
-    top: 45%;
-    left: 273px;
     transform: translateY(-50%) rotate(270deg);
     cursor: pointer;
-  }
+    margin-top: 30px;
+}
 
-  .line {
-    position: fixed; /*---------------------------------Problemos---------------------*/
-    top: 50%;
-    left: 300px;
+.line {
+    margin-left: 28px;
+    margin-top: 20px;
     width: 2px;
     height: 80px;
     cursor: pointer;
     border: 1px solid #09F4F4;
-  }
+}
 
-.social-header li {
+.hero-social li {
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
-.social-header i {
+.hero-social .social i {
     font-size: 1.5rem;
+    color: #41EAD4;
 }
 
 /* ---------------------------------------------------- JOURNEY -----------------------------------------------*/
 
 .journey {
-    margin-top: 118px;
+    margin-top: 232px;
 }
 
 .journey .container .section-heading h2 {
@@ -712,4 +748,27 @@ i {
 
 .footer-copyright img {
     margin-top: 26px;
+}
+
+
+/* ------------------------------ MEDIA ----------------------------------- */
+
+@media all and (max-width:980px) {
+
+    .main-nav > * {
+        display:none;
+    }
+
+    .main-nav-button {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: block;
+    }
+
+    .hero .container h1 {
+        margin-top: 50px;
+    }
+
 }
