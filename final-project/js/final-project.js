@@ -61,3 +61,9 @@ function mobileNavigation() {
       x.style.display = "block"
   }
 }
+
+function scrollToForm() {
+  let formSection = document.querySelector('#contanct-form');
+  let form = formSection.querySelector('h2')
+  form.scrollIntoView({ behavior: 'smooth' });
+}
