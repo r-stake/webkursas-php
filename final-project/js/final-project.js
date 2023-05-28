@@ -36,14 +36,6 @@ galleryItems.forEach((item) => {
   });
 });
 
-
-function scrollToJourney() {
-  const journeySection = document.querySelector('#journey');
-  const h2Element = journeySection.querySelector('h2');
-  
-  h2Element.scrollIntoView({ behavior: 'smooth' });
-}
-
 function mainNavigation() {
   let x = document.getElementById("Menu");
             if (x.style.display === "block") {
@@ -60,6 +52,13 @@ function mobileNavigation() {
   } else {
       x.style.display = "block"
   }
+}
+
+function scrollToJourney() {
+  const journeySection = document.querySelector('#journey');
+  const h2Element = journeySection.querySelector('h2');
+  
+  h2Element.scrollIntoView({ behavior: 'smooth' });
 }
 
 function scrollToForm() {

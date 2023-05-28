@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="./js/final-project.js" defer></script>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Gamtos Glėbyje</title>
@@ -78,7 +79,7 @@
     <main>
         <section class="journey" id="journey">
             <div class="container">
-                <div class="section-heading">
+                <div class="section-heading">  <!-- Journey Menu -->
                     <div>
                         <h2>Išsirinkite kelionę</h2> 
                     </div>
@@ -97,8 +98,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="section-content">
-                    <div id="content1" class="content">
+                <div class="section-content">  <!-- Journeys -->
+                    <div id="content1" class="content">  <!-- Journey 1 -->
                         <div id="stars" class="flex-container">
                             <div class="journey-image">
                                 <img src="./images/vietove_1.jpg" alt="Žvaigždėtas dangus">
@@ -118,7 +119,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="content2" class="content">
+                    <div id="content2" class="content">  <!-- Journey 2 -->
                         <div id="forest" class="flex-container">
                             <div class="journey-image">
                                 <img src="./images/vietove_2.jpg" alt="Labanoro giria">
@@ -138,7 +139,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="content3" class="content">
+                    <div id="content3" class="content">  <!-- Journey 3 -->
                         <div id="dunes" class="flex-container">
                             <div class="journey-image">
                                 <img src="./images/vietove_3.png" alt="Dykuma">
@@ -158,7 +159,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="content4" class="content">
+                    <div id="content4" class="content">  <!-- Journey 4 -->
                         <div id="river" class="flex-container">
                             <div class="journey-image">
                                 <img src="./images/vietove_4.jpg" alt="Sušlapk kojas">
@@ -393,6 +394,5 @@
             </div>
         </div>
     </footer>
-    <script src="./js/final-project.js"></script>
 </body>
 </html>
