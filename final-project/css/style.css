@@ -22,10 +22,10 @@ ul {
 }
 
 .container {
-    max-width: 1250px;
+    max-width: 1200px;  /* 1250 jeigu su padding? */
     width: 100%;
     margin: 0 auto;
-    /* padding: 0 25px; */
+    /* padding: 0 25px; */  /* Atitraukimui nuo naršyklės kraštų*/
     border: solid 1px magenta;
 }
 
@@ -494,7 +494,6 @@ i {
     align-items: center;
 }
 
-
 .testimonials-header {
     text-align: center;
 }
@@ -505,6 +504,16 @@ i {
     line-height: 110%;
     letter-spacing: -0.02em;
     margin-top: 378px;
+}
+
+.testimonials-header h2::before {
+    content: "";
+    display: block;
+    width: 80px;
+    border-top: solid 2px #09F4F4;
+    margin: auto;
+    margin-bottom: 90px;
+    transform: translateY(-50%) rotate(270deg);
 }
 
 .testimonials-header h3 {
@@ -528,16 +537,9 @@ i {
 
 .testimonials-item {
     background-color: #02223B;
-    width: 510px;
-    height: 504px;
-    /* margin: 0 78px; */
-}
-
-.testimonials-item > .flex-container {
-    margin-top: 75px;
-    margin-left: 50px;
-    margin-right: 74px;
-    margin-bottom: 75px;
+    max-width: 510px;
+    max-height: 504px;
+    padding: 75px 74px 75px 50px;
 }
 
 .testimonials-item i {
@@ -550,11 +552,29 @@ i {
 }
 
 .testimonials-feedback p:first-child {
+    font-weight: 700;
     margin: 0;
 }
 
+.testimonials-feedback p:nth-child(2) {
+    font-weight: 300;
+}
+
 .testimonials-feedback .flex-container {
-    justify-content: space-between;
+    justify-content: flex-start;
+}
+
+.testimonials-feedback .flex-container div {
+    align-self: center;
+}
+
+.testimonials-feedback .flex-container div p {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 170%;
+    letter-spacing: 0.15em;
+    margin: 0;
 }
 
 .testimonials-feedback .flex-container img {
@@ -564,16 +584,11 @@ i {
     align-self: center;
 }
 
-.testimonials-feedback .flex-container p {
-    text-transform: uppercase;
-    font-weight: 700px;
-    font-size: 0.75rem;
-    line-height: 170%;
-    letter-spacing: 0.15em;
-
-}
-
 /* Form */
+
+.contact-form {
+    margin-top: 150px;
+}
 
 .contact-form .section-heading {
     text-align: center;
@@ -584,7 +599,7 @@ i {
     font-size: 4.5rem;
     line-height: 110%;
     letter-spacing: -0.02em;
-    margin-top: 150px;
+    margin: 0;
 }
 
 .contact-form .section-heading h3 {

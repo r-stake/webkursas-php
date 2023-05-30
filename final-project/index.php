@@ -24,7 +24,7 @@
             <header class="site-header">
                 <div class="container flex-container">
                     <div class="logo">
-                        <a href="./index.php"><img src="./images/logo.png" alt="#"></a>
+                        <a href="./index.php"><img src="./images/logo.png" alt="Gamtos glėbyje logotipas"></a>
                     </div>
                     <div class="flex-container">
                         <nav class="main-nav" id="Menu">
@@ -147,7 +147,7 @@
                             <div class="journey-description">
                                 <h2>Nugalėk dykumą</h2>
                                 <p><strong>Naglių gamtiniame rezervate pamatysite unikalų Kuršių nerijos gamtos grožį.</strong></p>
-                                <p>Tai vienas įspūdingiausių Kuršių nerijos pėsčiųjų takų, vedantis pro palvę į mėnulio paviršiaus vaizdus primenantį kopų kraštovaizdį. Dėl stiprių vėjų šiose kopose susidaro įspūdingos daubos ir išgraužos, kai kur iš po smėlio išlenda senųjų dirvožemių fragmentai. Tako pabaigoje atsiveria nepaprasto grožio vaizdas į Kuršių marias.</p>
+                                <p>Tai vienas įspūdingiausių Kuršių nerijos pėsčiųjų takų, vedantis į mėnulio paviršiaus vaizdus primenantį kopų kraštovaizdį. Dėl stiprių vėjų šiose kopose susidaro įspūdingos daubos ir išgraužos, kai kur iš po smėlio išlenda senųjų dirvožemių fragmentai. Tako pabaigoje atsiveria nepaprasto grožio vaizdas į Kuršių marias.</p>
                                 <button class="button" onclick="scrollToForm()">Noriu!</button>
                                 <div class="social">
                                     <ul class="flex-container">
@@ -197,7 +197,7 @@
                         <img src="./images/about_us_1.png" alt="man">
                         <div class="overlay">
                             <div class="overlay-content">
-                                <h3>Mark Reaper, <span>CEO</span></h3>
+                                <h3>Tobias Reaper, <span>CEO</span></h3>
                             </div>
                         </div>
                     </div>
@@ -205,7 +205,7 @@
                         <img src="./images/about_us_1.png" alt="woman">
                         <div class="overlay">
                             <div class="overlay-content">
-                                <h3>Jane Doe, <span>CTO</span></h3>
+                                <h3>Claire Redfield, <span>CTO</span></h3>
                             </div>
                         </div>
                     </div>
@@ -213,7 +213,7 @@
                         <img src="./images/about_us_1.png" alt="woman">
                         <div class="overlay">
                             <div class="overlay-content">
-                                <h3>John Smith, <span>COO</span></h3>
+                                <h3>Sam Fisher, <span>COO</span></h3>
                             </div>
                         </div>
                     </div>
@@ -221,7 +221,7 @@
                         <img src="./images/about_us_1.png" alt="woman">
                         <div class="overlay">
                             <div class="overlay-content">
-                                <h3>Sarah Johnson, <span>CFO</span></h3>
+                                <h3>Ada Wong, <span>CFO</span></h3>
                             </div>
                         </div>
                     </div>
@@ -240,11 +240,14 @@
                             <div class="flex-container">
                                 <i class="bi bi-quote"></i>
                                 <div class="testimonials-feedback">
-                                    <p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing.</strong></p>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam ex amet, mollitia facilis itaque dolores eum illum ullam alias minima et hic in dignissimos quia ipsa debitis velit. Totam, minima.</p>
+                                    <p>"Nuostabi ir įsimintina žvaigždžių stebėjimo patirtis.</p>
+                                    <p>Niekada nepamiršiu tos magiškos nakties, kai stebėjau tūkstančius žvaigždžių Lietuvos danguje. Nepakartojama patirtis, kurią rekomenduoju visiems astronomijos entuziastams!</p>
                                     <div class="flex-container">
                                         <img src="./images/atsiliepimai_foto.png" alt="face">
-                                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                        <div>
+                                            <p>Karolina</p>
+                                            <p>Vilnius</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div> 
@@ -253,11 +256,14 @@
                             <div class="flex-container">
                                 <i class="bi bi-quote"></i>
                                 <div class="testimonials-feedback">
-                                    <p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing.</strong></p>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam ex amet, mollitia facilis itaque dolores eum illum ullam alias minima et hic in dignissimos quia ipsa debitis velit. Totam, minima.</p>
+                                    <p>Nugrimzdžkite į Labanoro girios paslaptingą grožį: laukia nepakartojami nuotykiai.</p>
+                                    <p>Labanoro giria - vieta, kur prarandu save ir atrandu grožį. Nuo apžvalgos bokšto atsiveria nepakartojamas gamtos vaizdas, kvapą gniaužiantis įspūdis.</p>
                                     <div class="flex-container">
                                         <img src="./images/atsiliepimai_foto.png" alt="face">
-                                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                        <div>
+                                            <p>Laura</p>
+                                            <p>Vilnius</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div> 
@@ -266,11 +272,14 @@
                             <div class="flex-container">
                                 <i class="bi bi-quote"></i>
                                 <div class="testimonials-feedback">
-                                    <p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing.</strong></p>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam ex amet, mollitia facilis itaque dolores eum illum ullam alias minima et hic in dignissimos quia ipsa debitis velit. Totam, minima.</p>
+                                    <p>Atraskite Naglių gamtinio rezervato stebuklus</p>
+                                    <p>Naglių gamtinio rezervato tyrinėjimas mane apstulbino ir sužavėjo, jaučiausi kaip kitame pasaulyje. Nuostabios kopos ir unikalus kraštovaizdis tiesiog visiškai atėmė iš manęs žadą. Labai rekomenduoju.</p>
                                     <div class="flex-container">
                                         <img src="./images/atsiliepimai_foto.png" alt="face">
-                                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                        <div>
+                                            <p>Paulius</p>
+                                            <p>Kaunas</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div> 
@@ -279,11 +288,14 @@
                             <div class="flex-container">
                                 <i class="bi bi-quote"></i>
                                 <div class="testimonials-feedback">
-                                    <p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing.</strong></p>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam ex amet, mollitia facilis itaque dolores eum illum ullam alias minima et hic in dignissimos quia ipsa debitis velit. Totam, minima.</p>
+                                    <p>Įsiklausykite į gamtos šnabždesį: Dūkštos pažintinio tako žavesys!</p>
+                                    <p>Dūkštos pažintinis takas mane apakino natūraliu grožiu ir tyliu ramumu. Prispraginome daug nuostabių nuotraukų. Rekomenduoju visiems fotografijos entuziastams. Ačiū už įkvėpimą!</p>
                                     <div class="flex-container">
                                         <img src="./images/atsiliepimai_foto.png" alt="face">
-                                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                        <div>
+                                            <p>Gabija</p>
+                                            <p>Molėtai</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div> 
@@ -390,7 +402,7 @@
             </div>
             <div class="footer-copyright">
                 <div><p>&copy; Gamtos Glėbyje 2023. Visos teisės saugomos.</p></div>
-                <div class="logo"><img src="./images/logo.png" alt=""></div>
+                <div class="logo"><a href="./index.php"><img src="./images/logo.png" alt="Gamtos glėbyje logotipas"></a></div>
             </div>
         </div>
     </footer>
