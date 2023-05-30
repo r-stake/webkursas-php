@@ -68,9 +68,9 @@
                 </div>    
                 <div class="social">
                     <ul>
-                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                        <li><a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                        <li><a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -78,8 +78,8 @@
     </div>
     <main>
         <section class="journey" id="journey">
-            <div class="container">
-                <div class="section-heading">  <!-- Journey Menu -->
+            <div class="section-heading">  <!-- Journey Menu -->
+                <div class="container">
                     <div>
                         <h2>Išsirinkite kelionę</h2> 
                     </div>
@@ -98,85 +98,105 @@
                         </div>
                     </div>
                 </div>
-                <div class="section-content">  <!-- Journeys -->
-                    <div id="content1" class="content">  <!-- Journey 1 -->
-                        <div id="stars" class="flex-container">
-                            <div class="journey-image">
-                                <img src="./images/vietove_1.jpg" alt="Žvaigždėtas dangus">
-                            </div>
-                            <div class="journey-description">
-                                <h2>Sugalvok norą</h2>
-                                <p>Mėgstate gamtą, bet nenorite ilgo žygio? Pažvelkite aukštyn - meteorų lietus teiks džiaugsmo ir nuotykių!</p>
-                                <p>Paslaptingas meteorų lietaus stebėjimo renginys tikriems gamtos mylėtojams, ieškantiems ramybės. Pamatysite apie 60-100 meteorų per valandą, po vieną meteorą kas minutę. Prisijunkite prie mūsų gaivioje miško aplinkoje su laužais, kepiniais, muzika ir džiugiomis dainomis. Nedeslk, prisijunk prie mūsų! </p>
-                                <button class="button" onclick="scrollToForm()">Noriu!</button>
-                                <div class="social">
-                                    <ul class="flex-container">
-                                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-                                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                                    </ul>
+            </div>
+            <div class="section-content">  <!-- Journeys -->
+                <div id="content1" class="content">  <!-- Journey 1 -->
+                    <div id="stars">
+                        <div class="container">
+                            <div class="flex-container">
+                                <div class="journey-image">
+                                    <img src="./images/dots-corner.png" alt="dots">
+                                    <img src="./images/vietove_1.jpg" alt="Žvaigždėtas dangus">
+                                </div>
+                                <div class="journey-description">
+                                    <h2>Sugalvok norą</h2>
+                                    <p>Mėgstate gamtą, bet nenorite ilgo žygio? Pažvelkite aukštyn - meteorų lietus teiks džiaugsmo ir nuotykių!</p>
+                                    <p>Paslaptingas meteorų lietaus stebėjimo renginys tikriems gamtos mylėtojams, ieškantiems ramybės. Pamatysite apie 60-100 meteorų per valandą, po vieną meteorą kas minutę. Prisijunkite prie mūsų gaivioje miško aplinkoje su laužais, kepiniais, muzika ir džiugiomis dainomis. Nedeslk, prisijunk prie mūsų! </p>
+                                    <button class="button" onclick="scrollToForm()">Noriu!</button>
                                 </div>
                             </div>
                         </div>
+                        <div class="social">
+                            <ul class="flex-container">
+                                <li><a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                                <li><a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                                <li><a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div id="content2" class="content">  <!-- Journey 2 -->
-                        <div id="forest" class="flex-container">
-                            <div class="journey-image">
-                                <img src="./images/vietove_2.jpg" alt="Labanoro giria">
-                            </div>
-                            <div class="journey-description">
-                                <h2>Pasiklysk girioje</h2>
-                                <p><strong>Didžiausia Lietuvoje senoji Labanoro giria - kryptis norintiems giliai nerti į gamtos pasaulį.</strong></p>
-                                <p>Per kelis Aukštaitijos rajonus besidriekiantys, rodos, nesibaigiantys miškai, medžių tankmėje besislepiantys ežerai ir juos jungiančios upės, augalijos ir gyvūnijos įvairovė - Labanoras yra labai turtingas. Jo didybę pabandykite aprėpti iš vieno aukščiausių Lietuvoje - net 36 metrus siekiančio - Mindūnų apžvalgos bokšto.</p>
-                                <button class="button" onclick="scrollToForm()">Noriu!</button>
-                                <div class="social">
-                                    <ul class="flex-container">
-                                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-                                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                                    </ul>
+                </div>
+                <div id="content2" class="content">  <!-- Journey 2 -->
+                    <div id="forest">
+                        <div class="container">
+                            <div class="flex-container">
+                                <div class="journey-image">
+                                    <img src="./images/dots-corner.png" alt="dots">
+                                    <img src="./images/vietove_2.jpg" alt="Labanoro giria">
+                                </div>
+                                <div class="journey-description">
+                                    <h2>Pasiklysk girioje</h2>
+                                    <p><strong>Didžiausia Lietuvoje senoji Labanoro giria - kryptis norintiems giliai nerti į gamtos pasaulį.</strong></p>
+                                    <p>Per kelis Aukštaitijos rajonus besidriekiantys, rodos, nesibaigiantys miškai, medžių tankmėje besislepiantys ežerai ir juos jungiančios upės, augalijos ir gyvūnijos įvairovė - Labanoras yra labai turtingas. Jo didybę pabandykite aprėpti iš vieno aukščiausių Lietuvoje - net 36 metrus siekiančio - Mindūnų apžvalgos bokšto.</p>
+                                    <button class="button" onclick="scrollToForm()">Noriu!</button>
                                 </div>
                             </div>
                         </div>
+                        <div class="social">
+                            <ul class="flex-container">
+                                <li><a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                                <li><a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                                <li><a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div id="content3" class="content">  <!-- Journey 3 -->
-                        <div id="dunes" class="flex-container">
-                            <div class="journey-image">
-                                <img src="./images/vietove_3.png" alt="Dykuma">
-                            </div>
-                            <div class="journey-description">
-                                <h2>Nugalėk dykumą</h2>
-                                <p><strong>Naglių gamtiniame rezervate pamatysite unikalų Kuršių nerijos gamtos grožį.</strong></p>
-                                <p>Tai vienas įspūdingiausių Kuršių nerijos pėsčiųjų takų, vedantis į mėnulio paviršiaus vaizdus primenantį kopų kraštovaizdį. Dėl stiprių vėjų šiose kopose susidaro įspūdingos daubos ir išgraužos, kai kur iš po smėlio išlenda senųjų dirvožemių fragmentai. Tako pabaigoje atsiveria nepaprasto grožio vaizdas į Kuršių marias.</p>
-                                <button class="button" onclick="scrollToForm()">Noriu!</button>
-                                <div class="social">
-                                    <ul class="flex-container">
-                                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-                                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                                    </ul>
+                </div>
+                <div id="content3" class="content">  <!-- Journey 3 -->
+                    <div id="dunes">
+                        <div class="container">
+                            <div class="flex-container">
+                                <div class="journey-image">
+                                    <img src="./images/dots-corner.png" alt="dots">
+                                    <img src="./images/vietove_3.png" alt="Dykuma">
+                                </div>
+                                <div class="journey-description">
+                                    <h2>Nugalėk dykumą</h2>
+                                    <p><strong>Naglių gamtiniame rezervate pamatysite unikalų Kuršių nerijos gamtos grožį.</strong></p>
+                                    <p>Tai vienas įspūdingiausių Kuršių nerijos pėsčiųjų takų, vedantis į mėnulio paviršiaus vaizdus primenantį kopų kraštovaizdį. Dėl stiprių vėjų šiose kopose susidaro įspūdingos daubos ir išgraužos, kai kur iš po smėlio išlenda senųjų dirvožemių fragmentai. Tako pabaigoje atsiveria nepaprasto grožio vaizdas į Kuršių marias.</p>
+                                    <button class="button" onclick="scrollToForm()">Noriu!</button>                                    
                                 </div>
                             </div>
                         </div>
+                        <div class="social">
+                            <ul class="flex-container">
+                                <li><a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                                <li><a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                                <li><a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div id="content4" class="content">  <!-- Journey 4 -->
-                        <div id="river" class="flex-container">
-                            <div class="journey-image">
-                                <img src="./images/vietove_4.jpg" alt="Sušlapk kojas">
-                            </div>
-                            <div class="journey-description">
-                                <h2>Sušlapk kojas</h2>
-                                <p><strong>Dūkštos pažintinis takas kviečia išdrįsti ir išbandyti savo fizinę ištvermę ir pasinerti į įdomiausią Neries regioninio parko maršrutą.</strong></p>
-                                <p>Dūkštos pažintinis takas leidžia jums išvysti Dūkštos upelio slėnio šlaitus, sugriuvusios  užtvankos likučius, Šventąjį Daubų ąžuolą bei regyklą ant Ąžuolų kalno. Tai įdomus maršrutas, kuriame aplankysite du piliakalnius ir alkakalnį bei daug išmoksite perskaitę įdomius informacinius pažintinio tako stendus.</p>
-                                <button class="button" onclick="scrollToForm()">Noriu!</button>
-                                <div class="social">
-                                    <ul class="flex-container">
-                                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-                                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                                    </ul>
+                </div>
+                <div id="content4" class="content">  <!-- Journey 4 -->
+                    <div id="river">
+                        <div class="container">
+                            <div class="flex-container">
+                                <div class="journey-image">
+                                    <img src="./images/dots-corner.png" alt="dots">
+                                    <img src="./images/vietove_4.jpg" alt="Sušlapk kojas">
+                                </div>
+                                <div class="journey-description">
+                                    <h2>Sušlapk kojas</h2>
+                                    <p><strong>Dūkštos pažintinis takas kviečia išdrįsti ir išbandyti savo fizinę ištvermę ir pasinerti į įdomiausią Neries regioninio parko maršrutą.</strong></p>
+                                    <p>Dūkštos pažintinis takas leidžia jums išvysti Dūkštos upelio slėnio šlaitus, sugriuvusios  užtvankos likučius, Šventąjį Daubų ąžuolą bei regyklą ant Ąžuolų kalno. Tai įdomus maršrutas, kuriame aplankysite du piliakalnius ir alkakalnį bei daug išmoksite perskaitę įdomius informacinius pažintinio tako stendus.</p>
+                                    <button class="button" onclick="scrollToForm()">Noriu!</button>                                   
                                 </div>
                             </div>
+                        </div>
+                        <div class="social">
+                            <ul class="flex-container">
+                                <li><a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                                <li><a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                                <li><a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -390,10 +410,10 @@
                         <li><h3>Bendraukime</h3></li>
                         <li class="divider">----------------------</li>
                         <li>
-                            <ul class="flex-container">
-                                <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-                                <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                                <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                            <ul class="social flex-container">
+                                <li><a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                                <li><a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                                <li><a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a></li>
                             </ul>
                         </li>
                         

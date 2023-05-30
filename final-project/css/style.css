@@ -156,7 +156,7 @@ ul {
 }
 
 .hero .container h2 {
-    font-size: 1.125rem;
+    font-size: 1.5rem;
     font-weight: 700;
     letter-spacing: 0.1em;
     line-height: 100%;
@@ -213,7 +213,19 @@ ul {
 /* ------------------------------- JOURNEY -------------------------------*/
 
 /* ----------------------------- Journey Menu start ---------------------- */
-.journey .container .section-heading h2 {
+
+.journey {
+    max-width: 1355px;
+    margin: 0 auto;
+    border: 1px solid green;
+}
+
+.journey .section-heading .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.journey .section-heading h2 {
     text-align: center;
     border: solid 1px magenta;
     font-size: 4.5rem;
@@ -225,9 +237,10 @@ ul {
 
 .journey-menu.flex-container {
     margin-top: 83px;
+    display: flex;
 }
 
-.journey-menu.flex-container > * {
+.journey-menu.flex-container > * {   /* -------------------Ištrinti-----------*/
     border: none;
 }
 
@@ -277,21 +290,35 @@ ul {
     display: block;
 }
 
-.content .flex-container {
-    max-width: auto;
-    display: flex;
-    /* flex-wrap: wrap; */
+.content .container {
+    max-width: 1200px;
 }
 
-.journey-image img {
+.section-content .content .container .flex-container {
+    justify-content: flex-start;
+    gap: 126px;
+}
+
+.journey-image {
+    position: relative;
+}
+
+.journey-image img:first-child {
+    position: absolute;
+    bottom: -55px;
+    right: 315px;
+}
+
+.journey-image img:last-child {
+    position: relative;
     max-width: 486px;
-    margin-bottom: 50px;
 }
 
 .journey-description {
     align-self: center;
-    margin-left: 125px;
-    margin-right: 105px;
+    max-width: 485px;
+    /* margin-left: 125px; */
+    /* margin-right: 105px; */
 }
 
 .journey-description h2 {
@@ -334,27 +361,27 @@ ul {
     margin-top: 45px;
 }
 
-.social i {
-    font-size: 1.5rem;
-}
-/* -------------------------------------------------------------------------- */
-
-.social .flex-container {
-    gap: 10px;
-    justify-content: flex-end;
-}
-
-i {
-    color: #41EAD4;
-}
-
 #stars .social,
 #forest .social,
 #dunes .social,
 #river .social {
     align-self: flex-end;
-    padding: 0 30px 0px;
+    /* padding: 0 30px 0px; */
 }
+
+.social .flex-container {
+    gap: 23px;
+    justify-content: flex-end;
+    position: relative;
+    top: -30px;
+}
+
+.social i {
+    font-size: 1.5rem;
+    color: #41EAD4;
+}
+/* -------------------------------------------------------------------------- */
+
 
 .gallery.flex-container {
     flex-wrap: wrap;
