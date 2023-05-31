@@ -66,3 +66,14 @@ function scrollToForm() {
   let form = formSection.querySelector('h2')
   form.scrollIntoView({ behavior: 'smooth' });
 }
+
+
+$(document).ready(function() {
+  $('.owl-carousel').owlCarousel({
+    items: 1,
+    loop: true,
+    nav: true,
+    dots: false,
+    navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>']
+  });
+});

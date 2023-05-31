@@ -298,20 +298,45 @@ ul {
     justify-content: flex-start;
     gap: 126px;
 }
-
 .journey-image {
     position: relative;
 }
 
-.journey-image img:first-child {
+.journey-image .dots-corner img {
     position: absolute;
     bottom: -55px;
-    right: 315px;
+    left: -55px;
+    z-index: -1;
 }
 
-.journey-image img:last-child {
+/* .journey-image .carousel img {
     position: relative;
     max-width: 486px;
+} */
+
+.carousel-item {
+    width: 560px;
+}
+
+.carousel-item img {
+    max-width: 486px;
+         /* Padidinus nuotraukos aukštį nebesikeičia dėžutės dydis,*/
+}                      /* tačiau nuotraukos nebeatitinka dizaino failo išmatavimų*/
+
+.carousel-control-next-icon {
+    position: relative;
+    top: 250px;
+    right: 82px;
+    padding: 50px;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.carousel-control-prev-icon {
+    position: relative;
+    top: 250px;
+    left: 290px;
+    padding: 50px;
+    background-color: rgb(0, 0, 0, 0.6);
 }
 
 .journey-description {

@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script src="./js/final-project.js" defer></script>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -105,8 +106,33 @@
                         <div class="container">
                             <div class="flex-container">
                                 <div class="journey-image">
-                                    <img src="./images/dots-corner.png" alt="dots">
-                                    <img src="./images/vietove_1.jpg" alt="Žvaigždėtas dangus">
+                                    <div class="dots-corner">
+                                        <img src="./images/dots-corner.png" alt="dots">
+                                    </div>
+                                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="./images/zvaigzdes_1.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="./images/zvaigzdes_2.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="./images/zvaigzdes_3.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="./images/zvaigzdes_4.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                                 <div class="journey-description">
                                     <h2>Sugalvok norą</h2>
@@ -132,7 +158,10 @@
                         <div class="container">
                             <div class="flex-container">
                                 <div class="journey-image">
-                                    <img src="./images/dots-corner.png" alt="dots">
+                                    <div class="dots-corner">
+                                        <img src="./images/dots-corner.png" alt="dots">
+                                    </div>
+                                    
                                     <img src="./images/vietove_2.jpg" alt="Labanoro giria">
                                 </div>
                                 <div class="journey-description">
@@ -159,7 +188,9 @@
                         <div class="container">
                             <div class="flex-container">
                                 <div class="journey-image">
-                                    <img src="./images/dots-corner.png" alt="dots">
+                                    <div class="dots-corner">
+                                        <img src="./images/dots-corner.png" alt="dots">
+                                    </div>
                                     <img src="./images/vietove_3.png" alt="Dykuma">
                                 </div>
                                 <div class="journey-description">
@@ -186,7 +217,9 @@
                         <div class="container">
                             <div class="flex-container">
                                 <div class="journey-image">
-                                    <img src="./images/dots-corner.png" alt="dots">
+                                    <div class="dots-corner">
+                                        <img src="./images/dots-corner.png" alt="dots">
+                                    </div>
                                     <img src="./images/vietove_4.jpg" alt="Sušlapk kojas">
                                 </div>
                                 <div class="journey-description">
@@ -447,5 +480,6 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
