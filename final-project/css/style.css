@@ -406,11 +406,18 @@ ul {
 /* ------------------------------------------------- About us ------------------------------------------*/
 
 .about-us {
-    margin-top: 268px;
+    margin: 268px auto 0 auto;
+    max-width: 1391px;
+    border: solid 1px purple;
+}
+
+.about-us.flex-container {
+    justify-content: flex-end;
 }
 
 .about-us .container.flex-container {
     justify-content: flex-end;
+    margin: 0;
 }
 
 .about-us-info {
@@ -527,6 +534,10 @@ ul {
 
 .overlay-content span {
     color: #00C9E0;
+}
+
+.dots-rectangle {
+    align-self: center;
 }
 
 

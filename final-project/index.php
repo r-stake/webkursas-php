@@ -210,7 +210,7 @@
                 </div>
             </div>
         </section>
-        <section class="about-us" id="about-us">
+        <section class="about-us flex-container" id="about-us">
             <div class="container flex-container">
                 <div class="about-us-info">
                     <h2>Apie mus</h2>
@@ -254,6 +254,9 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="dots-rectangle">
+                <img src="./images/dots-rectangle.png" alt="dots rectangle">
             </div>
         </section>        
         <section class="testimonials" id="testimonials">
