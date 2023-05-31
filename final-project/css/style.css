@@ -366,14 +366,13 @@ ul {
 #dunes .social,
 #river .social {
     align-self: flex-end;
-    /* padding: 0 30px 0px; */
 }
 
 .social.flex-container {
     justify-content: flex-end;
 }
 
-.social.flex-container > * {
+.social.flex-container > * { /*--------------------------------Ištrinti*/
     border: none;
 }
 
@@ -811,6 +810,21 @@ ul {
     left: 50px;
     top: 3px;
     transform: rotate(45deg);
+}
+
+.about li a,
+.duk li a,
+.events li a,
+.contacts li a {
+    text-decoration: none;
+    color: white;
+}
+
+.about li a:hover,
+.duk li a:hover,
+.events li a:hover,
+.contacts li a:hover {
+    color: #00C9E0;
 }
 
 .social-footer .flex-container {

@@ -381,21 +381,21 @@
                         <li class="divider-line">
                             <div class="divider-cube"></div>
                         </li>
-                        <li>Mūsų misija</li>
-                        <li>Privatumo politika</li>
-                        <li>Autorių teisės</li>
+                        <li><a href="#">Mūsų misija</a></li>
+                        <li><a href="#">Privatumo politika</a></li>
+                        <li><a href="#">Autorių teisės</a></li>
                     </ul>
                 </div>
-                <div class="faq">
+                <div class="duk">
                     <ul>
                         <li><h3>Duk</h3></li>
                         <li class="divider-line">
                             <div class="divider-cube"></div>
                         </li>
-                        <li>Taisyklės</li>
-                        <li>Bilietai</li>
-                        <li>Leidiniai</li>
-                        <li>Karjera</li>
+                        <li><a href="#">Taisyklės</a> </li>
+                        <li><a href="#">Bilietai</a> </li>
+                        <li><a href="#">Leidiniai</a> </li>
+                        <li><a href="#">Karjera</a> </li>
                     </ul>
                 </div>
                 <div class="events">
@@ -404,10 +404,10 @@
                         <li class="divider-line">
                             <div class="divider-cube"></div>
                         </li>
-                        <li>Suskaičiuok žvaigždes</li>
-                        <li>Pasiklysk miške</li>
-                        <li>Nugalėk dykumą</li>
-                        <li>Sušlapk kojas</li>
+                        <li><a href="#stars" onclick="switchContent(0)">"Sugalvok norą"</a></li>
+                        <li><a href="#forest" onclick="switchContent(1)">"Pasiklysk miške"</a></li>
+                        <li><a href="#dunes" onclick="switchContent(2)">"Nugalėk dykumą"</a></li>
+                        <li><a href="#river" onclick="switchContent(3)">"Sušlapk kojas"</a></li>
                     </ul>
                 </div>
                 <div class="contacts">
@@ -416,9 +416,9 @@
                         <li class="divider-line">
                             <div class="divider-cube"></div>
                         </li>
-                        <li>info@gamtosglebyje.lt</li>
-                        <li>+37012233444</li>
-                        <li>+37056677888</li>
+                        <li><a href="mailto:info@gamtosglebyje.lt">info@gamtosglebyje.lt</a></li>
+                        <li><a href="tel:+37012233444">+37012233444</a></li>
+                        <li><a href="tel:+37056677888">+37056677888</a></li>
                     </ul>
                 </div>
                 <div class="social-footer">
