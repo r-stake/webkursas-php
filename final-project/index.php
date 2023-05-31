@@ -116,12 +116,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="social">
-                            <ul class="flex-container">
-                                <li><a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
-                                <li><a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>
-                                <li><a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a></li>
-                            </ul>
+                        <div class="social flex-container">
+                            <div class="border">
+                                <ul class="flex-container">
+                                    <li><a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                                    <li><a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                                    <li><a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -141,12 +143,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="social">
-                            <ul class="flex-container">
-                                <li><a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
-                                <li><a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>
-                                <li><a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a></li>
-                            </ul>
+                        <div class="social flex-container">
+                            <div class="border">
+                                <ul class="flex-container">
+                                    <li><a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                                    <li><a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                                    <li><a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -166,12 +170,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="social">
-                            <ul class="flex-container">
-                                <li><a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
-                                <li><a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>
-                                <li><a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a></li>
-                            </ul>
+                        <div class="social flex-container">
+                            <div class="border">
+                                <ul class="flex-container">
+                                    <li><a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                                    <li><a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                                    <li><a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -191,12 +197,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="social">
-                            <ul class="flex-container">
-                                <li><a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
-                                <li><a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>
-                                <li><a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a></li>
-                            </ul>
+                        <div class="social flex-container">
+                            <div class="border">
+                                <ul class="flex-container">
+                                    <li><a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                                    <li><a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                                    <li><a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
