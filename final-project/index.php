@@ -12,8 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script src="./js/final-project.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Gamtos Glėbyje</title>
@@ -109,7 +109,7 @@
                                     <div class="dots-corner">
                                         <img src="./images/dots-corner.png" alt="dots">
                                     </div>
-                                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                    <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
                                                 <img src="./images/zvaigzdes_1.jpg" class="d-block w-100" alt="...">
@@ -124,11 +124,11 @@
                                                 <img src="./images/zvaigzdes_4.jpg" class="d-block w-100" alt="...">
                                             </div>
                                         </div>
-                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -143,7 +143,7 @@
                             </div>
                         </div>
                         <div class="social flex-container">
-                            <div class="border">
+                            <div class="cosmetic-border">
                                 <ul class="flex-container">
                                     <li><a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
                                     <li><a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>
@@ -161,7 +161,7 @@
                                     <div class="dots-corner">
                                         <img src="./images/dots-corner.png" alt="dots">
                                     </div>
-                                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                    <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
                                                 <img src="./images/forest_1.jpg" class="d-block w-100" alt="...">
@@ -176,11 +176,11 @@
                                                 <img src="./images/forest_4.jpg" class="d-block w-100" alt="...">
                                             </div>
                                         </div>
-                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -195,7 +195,7 @@
                             </div>
                         </div>
                         <div class="social flex-container">
-                            <div class="border">
+                            <div class="cosmetic-border">
                                 <ul class="flex-container">
                                     <li><a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
                                     <li><a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>

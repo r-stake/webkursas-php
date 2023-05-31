@@ -27,6 +27,7 @@ ul {
     margin: 0 auto;
     /* padding: 0 25px; */  /* Atitraukimui nuo naršyklės kraštų*/
     border: solid 1px magenta;
+    padding: 0; /* Panaikina boostrapo defaultinį paddingą*/
 }
 
 .flex-container {
@@ -314,19 +315,23 @@ ul {
     max-width: 486px;
 } */
 
-.carousel-item {
-    width: 560px;
+.carousel-inner {
+   background-color: #011627 /* Lipnioji juostelė, kad nesimatytų kapniniai taškai persijungiant nuotraukoms*/
 }
+
+.carousel-item {
+    width: 590px;       /* Padidinus nuotraukos aukštį nebesikeičia dėžutės dydis,*/
+}                       /* tačiau nuotraukos nebeatitinka dizaino failo išmatavimų*/
 
 .carousel-item img {
     max-width: 486px;
-         /* Padidinus nuotraukos aukštį nebesikeičia dėžutės dydis,*/
-}                      /* tačiau nuotraukos nebeatitinka dizaino failo išmatavimų*/
+         
+}                      
 
 .carousel-control-next-icon {
     position: relative;
     top: 250px;
-    right: 82px;
+    right: 110px;
     padding: 50px;
     background-color: rgb(0, 0, 0, 0.6);
 }
@@ -409,7 +414,7 @@ ul {
     right: 16px;
 }
 
-.journey .content .social .border {
+#journey .section-content .content .social .cosmetic-border {
     width: 133px;
     height: 31px;
     border-bottom: 2px solid #41EAD4;
@@ -426,6 +431,7 @@ ul {
 
 .gallery.flex-container {
     flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 /* ------------------------------------------------- About us ------------------------------------------*/
@@ -443,6 +449,7 @@ ul {
 .about-us .container.flex-container {
     justify-content: flex-end;
     margin: 0;
+    padding: 0;
 }
 
 .about-us-info {
@@ -490,7 +497,7 @@ ul {
 }
 
 .gallery {
-    margin-left: 80px; /* Tarpas tarp teksto ir nuotraukų */
+    margin-left: 88px; /* Tarpas tarp teksto ir nuotraukų */
 }
 
 /* ----------------------------------------------- About us overlay ------------------------------------------*/
@@ -678,7 +685,7 @@ ul {
     font-size: 4.5rem;
     line-height: 110%;
     letter-spacing: -0.02em;
-    margin: 0;
+    margin-bottom: 30px;
 }
 
 .contact-form .section-heading h3 {
@@ -707,7 +714,7 @@ ul {
     border-radius: 5px;
     background-color: #02223B;
     color: white;
-    width: calc(50% - 18px);
+    width: calc(50% - 20px);
     font-size: 1.25rem;
 }
 
