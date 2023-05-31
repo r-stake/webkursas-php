@@ -734,7 +734,6 @@ ul {
     font-weight: 700;
     line-height: 110%;
     letter-spacing: -0.02em;
-
 }
 
 .footer-header h3 {
@@ -745,7 +744,17 @@ ul {
     max-width: 388px;
     margin-left: auto;
     margin-right: auto;
+}
 
+.footer-header h3::after {
+    content: "";
+    display: block;
+    width: 80px;
+    border-top: solid 2px #09F4F4;
+    margin: auto;
+    position: relative;
+    top: 108px;
+    transform: translateY(-50%) rotate(270deg);
 }
 
 .footer-items.flex-container {
@@ -770,6 +779,21 @@ ul {
 
 .footer-items.flex-container {
     justify-content: space-around;
+}
+
+.divider-line {
+    border-bottom: 1.5px solid #41EAD4;
+    width: 50px;
+}
+
+.divider-cube {
+    border: 1.5px solid #41EAD4;
+    width: 5px;
+    height: 5px;
+    position: relative;
+    left: 50px;
+    top: 3px;
+    transform: rotate(45deg);
 }
 
 .social-footer .flex-container {

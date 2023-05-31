@@ -112,7 +112,7 @@
                                     <h2>Sugalvok norą</h2>
                                     <p>Mėgstate gamtą, bet nenorite ilgo žygio? Pažvelkite aukštyn - meteorų lietus teiks džiaugsmo ir nuotykių!</p>
                                     <p>Paslaptingas meteorų lietaus stebėjimo renginys tikriems gamtos mylėtojams, ieškantiems ramybės. Pamatysite apie 60-100 meteorų per valandą, po vieną meteorą kas minutę. Prisijunkite prie mūsų gaivioje miško aplinkoje su laužais, kepiniais, muzika ir džiugiomis dainomis. Nedeslk, prisijunk prie mūsų! </p>
-                                    <button class="button" onclick="scrollToForm()">Noriu!</button>
+                                    <button class="button" onclick="scrollToForm()">Registruotis</button>
                                 </div>
                             </div>
                         </div>
@@ -137,7 +137,7 @@
                                     <h2>Pasiklysk girioje</h2>
                                     <p><strong>Didžiausia Lietuvoje senoji Labanoro giria - kryptis norintiems giliai nerti į gamtos pasaulį.</strong></p>
                                     <p>Per kelis Aukštaitijos rajonus besidriekiantys, rodos, nesibaigiantys miškai, medžių tankmėje besislepiantys ežerai ir juos jungiančios upės, augalijos ir gyvūnijos įvairovė - Labanoras yra labai turtingas. Jo didybę pabandykite aprėpti iš vieno aukščiausių Lietuvoje - net 36 metrus siekiančio - Mindūnų apžvalgos bokšto.</p>
-                                    <button class="button" onclick="scrollToForm()">Noriu!</button>
+                                    <button class="button" onclick="scrollToForm()">Registruotis</button>
                                 </div>
                             </div>
                         </div>
@@ -162,7 +162,7 @@
                                     <h2>Nugalėk dykumą</h2>
                                     <p><strong>Naglių gamtiniame rezervate pamatysite unikalų Kuršių nerijos gamtos grožį.</strong></p>
                                     <p>Tai vienas įspūdingiausių Kuršių nerijos pėsčiųjų takų, vedantis į mėnulio paviršiaus vaizdus primenantį kopų kraštovaizdį. Dėl stiprių vėjų šiose kopose susidaro įspūdingos daubos ir išgraužos, kai kur iš po smėlio išlenda senųjų dirvožemių fragmentai. Tako pabaigoje atsiveria nepaprasto grožio vaizdas į Kuršių marias.</p>
-                                    <button class="button" onclick="scrollToForm()">Noriu!</button>                                    
+                                    <button class="button" onclick="scrollToForm()">Registruotis</button>                                    
                                 </div>
                             </div>
                         </div>
@@ -187,7 +187,7 @@
                                     <h2>Sušlapk kojas</h2>
                                     <p><strong>Dūkštos pažintinis takas kviečia išdrįsti ir išbandyti savo fizinę ištvermę ir pasinerti į įdomiausią Neries regioninio parko maršrutą.</strong></p>
                                     <p>Dūkštos pažintinis takas leidžia jums išvysti Dūkštos upelio slėnio šlaitus, sugriuvusios  užtvankos likučius, Šventąjį Daubų ąžuolą bei regyklą ant Ąžuolų kalno. Tai įdomus maršrutas, kuriame aplankysite du piliakalnius ir alkakalnį bei daug išmoksite perskaitę įdomius informacinius pažintinio tako stendus.</p>
-                                    <button class="button" onclick="scrollToForm()">Noriu!</button>                                   
+                                    <button class="button" onclick="scrollToForm()">Registruotis</button>                                   
                                 </div>
                             </div>
                         </div>
@@ -370,7 +370,9 @@
                 <div class="about">
                     <ul>
                         <li><h3>Apie mus</h3></li>
-                        <li class="divider">----------------------</li>
+                        <li class="divider-line">
+                            <div class="divider-cube"></div>
+                        </li>
                         <li>Mūsų misija</li>
                         <li>Privatumo politika</li>
                         <li>Autorių teisės</li>
@@ -379,7 +381,9 @@
                 <div class="faq">
                     <ul>
                         <li><h3>Duk</h3></li>
-                        <li class="divider">----------------------</li>
+                        <li class="divider-line">
+                            <div class="divider-cube"></div>
+                        </li>
                         <li>Taisyklės</li>
                         <li>Bilietai</li>
                         <li>Leidiniai</li>
@@ -389,7 +393,9 @@
                 <div class="events">
                     <ul>
                         <li><h3>Renginiai</h3></li>
-                        <li class="divider">----------------------</li>
+                        <li class="divider-line">
+                            <div class="divider-cube"></div>
+                        </li>
                         <li>Suskaičiuok žvaigždes</li>
                         <li>Pasiklysk miške</li>
                         <li>Nugalėk dykumą</li>
@@ -399,7 +405,9 @@
                 <div class="contacts">
                     <ul>
                         <li><h3>Susisiekite</h3></li>
-                        <li class="divider">----------------------</li>
+                        <li class="divider-line">
+                            <div class="divider-cube"></div>
+                        </li>
                         <li>info@gamtosglebyje.lt</li>
                         <li>+37012233444</li>
                         <li>+37056677888</li>
@@ -408,7 +416,9 @@
                 <div class="social-footer">
                     <ul>
                         <li><h3>Bendraukime</h3></li>
-                        <li class="divider">----------------------</li>
+                        <li class="divider-line">
+                            <div class="divider-cube"></div>
+                        </li>
                         <li>
                             <ul class="social flex-container">
                                 <li><a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
