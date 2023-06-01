@@ -112,16 +112,16 @@
                                     <div id="carousel-1" class="carousel slide" data-bs-ride="carousel">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
-                                                <img src="./images/zvaigzdes_1.jpg" class="d-block w-100" alt="...">
+                                                <img src="./images/stars_1.jpg" class="d-block w-100" alt="...">
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="./images/zvaigzdes_2.jpg" class="d-block w-100" alt="...">
+                                                <img src="./images/stars_2.jpg" class="d-block w-100" alt="...">
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="./images/zvaigzdes_3.jpg" class="d-block w-100" alt="...">
+                                                <img src="./images/stars_3.jpg" class="d-block w-100" alt="...">
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="./images/zvaigzdes_4.jpg" class="d-block w-100" alt="...">
+                                                <img src="./images/stars_4.jpg" class="d-block w-100" alt="...">
                                             </div>
                                         </div>
                                         <button class="carousel-control-prev" type="button" data-bs-target="#carousel-1" data-bs-slide="prev">
@@ -216,16 +216,16 @@
                                     <div id="carousel-3" class="carousel slide" data-bs-ride="carousel">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
-                                                <img src="./images/dunes-1.png" class="d-block w-100" alt="...">
+                                                <img src="./images/dunes_1.png" class="d-block w-100" alt="...">
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="./images/dunes-2.jpg" class="d-block w-100" alt="...">
+                                                <img src="./images/dunes_2.jpg" class="d-block w-100" alt="...">
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="./images/dunes-3.jpg" class="d-block w-100" alt="...">
+                                                <img src="./images/dunes_3.jpg" class="d-block w-100" alt="...">
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="./images/dunes-4.jpg" class="d-block w-100" alt="...">
+                                                <img src="./images/dunes_4.jpg" class="d-block w-100" alt="...">
                                             </div>
                                         </div>
                                         <button class="carousel-control-prev" type="button" data-bs-target="#carousel-3" data-bs-slide="prev">
@@ -261,11 +261,34 @@
                     <div id="river">
                         <div class="container">
                             <div class="flex-container">
-                                <div class="journey-image">
+                            <div class="journey-image">
                                     <div class="dots-corner">
                                         <img src="./images/dots-corner.png" alt="dots">
                                     </div>
-                                    <img src="./images/vietove_4.jpg" alt="Sušlapk kojas">
+                                    <div id="carousel-4" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="./images/river_1.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="./images/river_2.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="./images/river_3.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="./images/river_4.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-4" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-4" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                                 <div class="journey-description">
                                     <h2>Sušlapk kojas</h2>
