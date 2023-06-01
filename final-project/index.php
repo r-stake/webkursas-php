@@ -247,7 +247,7 @@
                             </div>
                         </div>
                         <div class="social flex-container">
-                            <div class="border">
+                            <div class="cosmetic-border">
                                 <ul class="flex-container">
                                     <li><a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
                                     <li><a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>
@@ -299,7 +299,7 @@
                             </div>
                         </div>
                         <div class="social flex-container">
-                            <div class="border">
+                            <div class="cosmetic-border">
                                 <ul class="flex-container">
                                     <li><a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
                                     <li><a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>

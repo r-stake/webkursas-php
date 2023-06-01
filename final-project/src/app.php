@@ -15,8 +15,8 @@
                 $subject = "Nauja žinutė";
                 $autorius = 'Nuo: ' . $vardas . ', ' . $email;
                 $zinute = htmlspecialchars($message);
-                // mail($to, $subject, $autorius, $zinute, $from);
-                // echo "<script>alert('Ačiū, gavome');</script>";
+                mail($to, $subject, $autorius, $zinute, $from);
+                echo "<script>alert('Ačiū, gavome');</script>";
             }
         }
     }

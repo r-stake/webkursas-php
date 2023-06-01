@@ -239,6 +239,7 @@ ul {
 .journey-menu.flex-container {
     margin-top: 83px;
     display: flex;
+    white-space: nowrap;
 }
 
 .journey-menu.flex-container > * {   /* -------------------Ištrinti-----------*/
@@ -403,6 +404,8 @@ ul {
     height: 31px;
     border-bottom: 2px solid #41EAD4;
     border-right: 2px solid #41EAD4;
+    position: relative;
+    top: -33px;
 }
 
 
@@ -488,10 +491,14 @@ ul {
 
 .gallery-item {
     position: relative;
+    max-width: 395px;
+    width: 100%;
 }
 
 .gallery-item img {
     cursor: pointer;
+    max-width: 395px;
+    width: 100%;
 }
 
 .overlay {
@@ -892,6 +899,48 @@ ul {
 
 /* ------------------------------ MEDIA ----------------------------------- */
 
+@media all and (max-width:1268px) {
+    .container {
+        padding: 0 25px;
+    }
+
+    .gallery-item {
+        max-width: none;
+        width: 100%;
+    }
+
+    .gallery-item img {
+        max-width: none;
+        width: 100%;
+    }
+
+    .about-us .dots-rectangle img {
+        display: none;
+    }
+}
+
+@media all and (max-width:1200px) {
+    /* Journey */
+    .journey .dots-corner {
+        display: none;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        display: none;
+    }
+
+
+    /* .gallery-item {
+        width: 100%;
+    }
+    
+    .gallery-item img {
+        width: 100%;
+    } */
+}
+
+
 @media all and (max-width:980px) {
 
     .main-nav > * {
@@ -910,4 +959,138 @@ ul {
         margin-top: 50px;
     }
 
+    .journey .section-content .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .journey .section-content .social.flex-container {
+        flex-direction: row;
+    }
+
+    .journey .section-content .social.flex-container .flex-container {
+        flex-direction: row;
+    }
+
+    .journey-image {
+        align-items: center;
+    }
+
+    #journey .section-content .content .social .cosmetic-border {
+
+        position: relative;
+        top: -33px;
+        left: 0px;
+    }
+
 }
+
+@media all and (max-width:800px) {
+    .gallery.flex-container {
+        margin: 0;
+    }
+
+    .overlay-content {
+        padding: 15px 10px;
+        margin: 0;
+        left: 0;
+        border-radius: 0;
+        width: 100%;
+    }
+
+    .contact-form .section-content form input {
+        padding: 20px 25px;
+        width: calc(100%);
+        margin-bottom: 30px;
+    }
+
+    .contact-form .section-content .input-row div:first-of-type,
+    .contact-form .section-content .input-row div:nth-of-type(2) {
+        margin-bottom: 0;
+}
+
+    .contact-form .section-content .input-row input:first-child {
+        margin-right: 0;
+    }
+    
+    .contact-form .section-content .input-row input:last-child {
+        margin-left: 0;
+    }
+
+    footer .footer-items.flex-container {
+        flex-wrap: wrap;
+    }
+
+    .footer-items.flex-container {
+        margin-top: 285px;
+        justify-content: center;
+    }
+    
+
+    .footer-items > div {
+        width: calc(33%);
+    }
+
+}
+
+@media all and (max-width:715px) {
+    .contact-form .section-content .flex-container {
+        flex-direction: column;
+    }
+
+    .contact-form .section-content .input-row textarea {
+        width: calc(100%);
+        margin-bottom: 30px;
+    }
+
+    .contact-form .section-content .input-row .select-button.flex-container {
+        width: calc(100%);
+    }
+}
+
+
+@media all and (max-width:545px) {
+    .overlay-content {
+        padding: 5px 10px;
+    }
+
+    .overlay-content h3 {
+        margin: 0 auto;
+    }
+
+}
+
+@media all and (max-width:465px) {
+    .about-us .container.flex-container {
+        flex-direction: column; 
+        width: 100%;
+        max-width: none;
+    }
+
+    .about-us-info {
+        width: 100%;
+        max-width: none;
+    }
+
+    .gallery-item {
+        width: 50%;
+    }
+    
+    .gallery-item img {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width:420px) {
+    .footer-items > div {
+        width: calc(50%);
+    }
+}
+
+@media all and (max-width:335px) {
+    .footer-items > div {
+        width: calc(100%);
+    }
+}
+
