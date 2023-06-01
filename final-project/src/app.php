@@ -17,6 +17,9 @@
                 $zinute = htmlspecialchars($message);
                 mail($to, $subject, $autorius, $zinute, $from);
                 echo "<script>alert('Ačiū, gavome');</script>";
+
+                header("Location: index.php");
+                exit();
             }
         }
     }

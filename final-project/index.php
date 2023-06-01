@@ -443,7 +443,7 @@
                     <h3>Apsisprendėte? Tuomet nedelskite ir užsiregistruokite</h3>
                 </div>
                 <div class="section-content">
-                    <form action="index.php" method="post" class="input-row" id="registration-form">
+                    <form autocomplete="off" action="index.php" method="post" class="input-row" id="registration-form">
                         <div>
                             <input type="text" name="vardas" placeholder="Jūsų vardas" required>
                             <input type="text" name="pavarde" placeholder="Jūsų pavardė" required>
