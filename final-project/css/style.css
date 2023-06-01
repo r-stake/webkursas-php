@@ -301,6 +301,7 @@ ul {
 }
 .journey-image {
     position: relative;
+    max-width: 486px;
 }
 
 .journey-image .dots-corner img {
@@ -308,30 +309,12 @@ ul {
     bottom: -55px;
     left: -55px;
     z-index: -1;
-}
-
-/* .journey-image .carousel img {
-    position: relative;
-    max-width: 486px;
-} */
-
-.carousel-inner {
-   background-color: #011627 /* Lipnioji juostelė, kad nesimatytų kapniniai taškai persijungiant nuotraukoms*/
-}
-
-.carousel-item {
-    width: 590px;       /* Padidinus nuotraukos aukštį nebesikeičia dėžutės dydis,*/
-}                       /* tačiau nuotraukos nebeatitinka dizaino failo išmatavimų*/
-
-.carousel-item img {
-    max-width: 486px;
-         
-}                      
+}           
 
 .carousel-control-next-icon {
     position: relative;
     top: 250px;
-    right: 110px;
+    right: 15px;
     padding: 50px;
     background-color: rgb(0, 0, 0, 0.6);
 }
@@ -339,7 +322,7 @@ ul {
 .carousel-control-prev-icon {
     position: relative;
     top: 250px;
-    left: 290px;
+    left: 295px;
     padding: 50px;
     background-color: rgb(0, 0, 0, 0.6);
 }

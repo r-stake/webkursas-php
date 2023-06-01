@@ -109,7 +109,7 @@
                                     <div class="dots-corner">
                                         <img src="./images/dots-corner.png" alt="dots">
                                     </div>
-                                    <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
+                                    <div id="carousel-1" class="carousel slide" data-bs-ride="carousel">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
                                                 <img src="./images/zvaigzdes_1.jpg" class="d-block w-100" alt="...">
@@ -124,11 +124,11 @@
                                                 <img src="./images/zvaigzdes_4.jpg" class="d-block w-100" alt="...">
                                             </div>
                                         </div>
-                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-1" data-bs-slide="prev">
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-1" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -161,7 +161,7 @@
                                     <div class="dots-corner">
                                         <img src="./images/dots-corner.png" alt="dots">
                                     </div>
-                                    <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+                                    <div id="carousel-2" class="carousel slide" data-bs-ride="carousel">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
                                                 <img src="./images/forest_1.jpg" class="d-block w-100" alt="...">
@@ -176,11 +176,11 @@
                                                 <img src="./images/forest_4.jpg" class="d-block w-100" alt="...">
                                             </div>
                                         </div>
-                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-2" data-bs-slide="prev">
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-2" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -213,7 +213,30 @@
                                     <div class="dots-corner">
                                         <img src="./images/dots-corner.png" alt="dots">
                                     </div>
-                                    <img src="./images/vietove_3.png" alt="Dykuma">
+                                    <div id="carousel-3" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="./images/dunes-1.png" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="./images/dunes-2.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="./images/dunes-3.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="./images/dunes-4.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-3" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-3" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
                                 <div class="journey-description">
                                     <h2>Nugalėk dykumą</h2>
@@ -497,7 +520,7 @@
                 </div>
             </div>
             <div class="footer-copyright">
-                <div><p>&copy; Gamtos Glėbyje 2023. Visos teisės saugomos.</p></div>
+                <div><p>&copy; Gamtos Glėbyje <?php echo date('Y'); ?>. Visos teisės saugomos.</p></div>
                 <div class="logo"><a href="./index.php"><img src="./images/logo.png" alt="Gamtos glėbyje logotipas"></a></div>
             </div>
         </div>
