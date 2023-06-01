@@ -112,16 +112,16 @@
                                     <div id="carousel-1" class="carousel slide" data-bs-ride="carousel">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
-                                                <img src="./images/stars_1.jpg" class="d-block w-100" alt="...">
+                                                <img src="./images/stars_1.jpg" class="d-block w-100" alt="žvaigždėtas dangus">
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="./images/stars_2.jpg" class="d-block w-100" alt="...">
+                                                <img src="./images/stars_2.jpg" class="d-block w-100" alt="krentantis meteoras žvaigždėtame danguje">
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="./images/stars_3.jpg" class="d-block w-100" alt="...">
+                                                <img src="./images/stars_3.jpg" class="d-block w-100" alt="žmogus žiūri į paukščių taką danguje">
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="./images/stars_4.jpg" class="d-block w-100" alt="...">
+                                                <img src="./images/stars_4.jpg" class="d-block w-100" alt="šeima teleskopu stebi žvaigždes">
                                             </div>
                                         </div>
                                         <button class="carousel-control-prev" type="button" data-bs-target="#carousel-1" data-bs-slide="prev">
@@ -164,16 +164,16 @@
                                     <div id="carousel-2" class="carousel slide" data-bs-ride="carousel">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
-                                                <img src="./images/forest_1.jpg" class="d-block w-100" alt="...">
+                                                <img src="./images/forest_1.jpg" class="d-block w-100" alt="labanoro girios pažintinis takas">
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="./images/forest_2.jpg" class="d-block w-100" alt="...">
+                                                <img src="./images/forest_2.jpg" class="d-block w-100" alt="voverė ant medžio kamieno">
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="./images/forest_3.jpg" class="d-block w-100" alt="...">
+                                                <img src="./images/forest_3.jpg" class="d-block w-100" alt="takas apsuptas aukštų medžių">
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="./images/forest_4.jpg" class="d-block w-100" alt="...">
+                                                <img src="./images/forest_4.jpg" class="d-block w-100" alt="elnias miške">
                                             </div>
                                         </div>
                                         <button class="carousel-control-prev" type="button" data-bs-target="#carousel-2" data-bs-slide="prev">
@@ -216,16 +216,16 @@
                                     <div id="carousel-3" class="carousel slide" data-bs-ride="carousel">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
-                                                <img src="./images/dunes_1.png" class="d-block w-100" alt="...">
+                                                <img src="./images/dunes_1.png" class="d-block w-100" alt="kopos">
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="./images/dunes_2.jpg" class="d-block w-100" alt="...">
+                                                <img src="./images/dunes_2.jpg" class="d-block w-100" alt="kopos ir jūra">
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="./images/dunes_3.jpg" class="d-block w-100" alt="...">
+                                                <img src="./images/dunes_3.jpg" class="d-block w-100" alt="pėdos smėlyje">
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="./images/dunes_4.jpg" class="d-block w-100" alt="...">
+                                                <img src="./images/dunes_4.jpg" class="d-block w-100" alt="moteris keliauja per kopas link vandens, fone matomi kalnai">
                                             </div>
                                         </div>
                                         <button class="carousel-control-prev" type="button" data-bs-target="#carousel-3" data-bs-slide="prev">
@@ -268,16 +268,16 @@
                                     <div id="carousel-4" class="carousel slide" data-bs-ride="carousel">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
-                                                <img src="./images/river_1.jpg" class="d-block w-100" alt="...">
+                                                <img src="./images/river_1.jpg" class="d-block w-100" alt="Dūkštos upės vaga">
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="./images/river_2.jpg" class="d-block w-100" alt="...">
+                                                <img src="./images/river_2.jpg" class="d-block w-100" alt="upė miške tarp medžių">
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="./images/river_3.jpg" class="d-block w-100" alt="...">
+                                                <img src="./images/river_3.jpg" class="d-block w-100" alt="upė ir nedidelė užtvanka">
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="./images/river_4.jpg" class="d-block w-100" alt="...">
+                                                <img src="./images/river_4.jpg" class="d-block w-100" alt="upė miške">
                                             </div>
                                         </div>
                                         <button class="carousel-control-prev" type="button" data-bs-target="#carousel-4" data-bs-slide="prev">
@@ -323,7 +323,7 @@
                 </div>
                 <div class="gallery flex-container">
                     <div class="gallery-item">
-                        <img src="./images/about_us_1.png" alt="man">
+                        <img src="./images/dog_1.jpg" alt="man carying a dog">
                         <div class="overlay">
                             <div class="overlay-content">
                                 <h3>Tobias Reaper, <span>CEO</span></h3>
@@ -331,7 +331,7 @@
                         </div>
                     </div>
                     <div class="gallery-item">
-                        <img src="./images/about_us_1.png" alt="woman">
+                        <img src="./images/woman_1.jpg" alt="woman">
                         <div class="overlay">
                             <div class="overlay-content">
                                 <h3>Claire Redfield, <span>CTO</span></h3>
@@ -339,7 +339,7 @@
                         </div>
                     </div>
                     <div class="gallery-item">
-                        <img src="./images/about_us_1.png" alt="woman">
+                        <img src="./images/man_2.jpg" alt="man">
                         <div class="overlay">
                             <div class="overlay-content">
                                 <h3>Sam Fisher, <span>COO</span></h3>
@@ -347,7 +347,7 @@
                         </div>
                     </div>
                     <div class="gallery-item">
-                        <img src="./images/about_us_1.png" alt="woman">
+                        <img src="./images/woman_2.jpg" alt="woman">
                         <div class="overlay">
                             <div class="overlay-content">
                                 <h3>Ada Wong, <span>CFO</span></h3>
@@ -375,7 +375,7 @@
                                     <p>"Nuostabi ir įsimintina žvaigždžių stebėjimo patirtis.</p>
                                     <p>Niekada nepamiršiu tos magiškos nakties, kai stebėjau tūkstančius žvaigždžių Lietuvos danguje. Nepakartojama patirtis, kurią rekomenduoju visiems astronomijos entuziastams!</p>
                                     <div class="flex-container">
-                                        <img src="./images/atsiliepimai_foto.png" alt="face">
+                                        <img src="./images/testimonials_1.png" alt="womans face covered by flowers">
                                         <div>
                                             <p>Karolina</p>
                                             <p>Vilnius</p>
@@ -391,7 +391,7 @@
                                     <p>Nugrimzdžkite į Labanoro girios paslaptingą grožį: laukia nepakartojami nuotykiai.</p>
                                     <p>Labanoro giria - vieta, kur prarandu save ir atrandu grožį. Nuo apžvalgos bokšto atsiveria nepakartojamas gamtos vaizdas, kvapą gniaužiantis įspūdis.</p>
                                     <div class="flex-container">
-                                        <img src="./images/atsiliepimai_foto.png" alt="face">
+                                        <img src="./images/testimonials_2.jpg" alt="woman in a field">
                                         <div>
                                             <p>Laura</p>
                                             <p>Vilnius</p>
@@ -407,7 +407,7 @@
                                     <p>Atraskite Naglių gamtinio rezervato stebuklus</p>
                                     <p>Naglių gamtinio rezervato tyrinėjimas mane apstulbino ir sužavėjo, jaučiausi kaip kitame pasaulyje. Nuostabios kopos ir unikalus kraštovaizdis tiesiog visiškai atėmė iš manęs žadą. Labai rekomenduoju.</p>
                                     <div class="flex-container">
-                                        <img src="./images/atsiliepimai_foto.png" alt="face">
+                                        <img src="./images/testimonials_3.jpg" alt="man hiking">
                                         <div>
                                             <p>Paulius</p>
                                             <p>Kaunas</p>
@@ -423,9 +423,9 @@
                                     <p>Įsiklausykite į gamtos šnabždesį: Dūkštos pažintinio tako žavesys!</p>
                                     <p>Dūkštos pažintinis takas mane apakino natūraliu grožiu ir tyliu ramumu. Prispraginome daug nuostabių nuotraukų. Rekomenduoju visiems fotografijos entuziastams. Ačiū už įkvėpimą!</p>
                                     <div class="flex-container">
-                                        <img src="./images/atsiliepimai_foto.png" alt="face">
+                                        <img src="./images/testimonials_4.jpg" alt="man with a camera">
                                         <div>
-                                            <p>Gabija</p>
+                                            <p>Mantas</p>
                                             <p>Molėtai</p>
                                         </div>
                                     </div>

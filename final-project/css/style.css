@@ -5,11 +5,11 @@
 }
 
 html {
-    font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
 }
 
 body {
+    font-family: 'Ubuntu', sans-serif;
     margin: 0;
     background-color: #011627;
     color: white;
@@ -343,6 +343,7 @@ ul {
     max-height: 607px;
     text-align: center;
     margin-top: 67px;
+    margin: 0 0 34px 0;
 }
 
 .journey-description p {
@@ -480,7 +481,7 @@ ul {
 }
 
 .gallery {
-    margin-left: 88px; /* Tarpas tarp teksto ir nuotraukų */
+    margin-left: 80px; /* Tarpas tarp teksto ir nuotraukų */
 }
 
 /* ----------------------------------------------- About us overlay ------------------------------------------*/
@@ -508,19 +509,23 @@ ul {
 .overlay-content {
     display: block;
     position: absolute;
-    padding: 10px 25px;
+    padding: 26px 19px;
     bottom: 0;
     left: -44px;
     margin-bottom: 50px;
     background-color: white;
     color: black;
-    font-size: 0.9375;
-    font-weight: 700;
-    line-height: 150%;
-    letter-spacing: 0.05em;
     border-radius: 8px;
     opacity: 0;
     transition: opacity 1.0s ease; /* Add transition property for the overlay content */
+}
+
+.overlay-content h3 {
+    margin: 0;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.05em;
 }
 
 .gallery-item.not-clicked .overlay {
