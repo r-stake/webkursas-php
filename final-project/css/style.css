@@ -25,18 +25,11 @@ ul {
     max-width: 1200px;  /* 1250 jeigu su padding? */
     width: 100%;
     margin: 0 auto;
-    /* padding: 0 25px; */  /* Atitraukimui nuo naršyklės kraštų*/
-    border: solid 1px magenta;
     padding: 0; /* Panaikina boostrapo defaultinį paddingą*/
 }
 
 .flex-container {
     display: flex;
-    border: solid 1px red;
-}
-
-.flex-container > * {
-    border: solid 1px yellow;
 }
 
 
@@ -170,7 +163,6 @@ ul {
     max-width: 650px;
     line-height: 150%;
     margin: 0 auto;
-    border: solid 1px black;
 }
 
 .hero-social {
@@ -218,7 +210,6 @@ ul {
 .journey {
     max-width: 1355px;
     margin: 0 auto;
-    border: 1px solid green;
 }
 
 .journey .section-heading .container {
@@ -228,7 +219,6 @@ ul {
 
 .journey .section-heading h2 {
     text-align: center;
-    border: solid 1px magenta;
     font-size: 4.5rem;
     font-weight: 700;
     line-height: 110%;
@@ -240,10 +230,6 @@ ul {
     margin-top: 83px;
     display: flex;
     white-space: nowrap;
-}
-
-.journey-menu.flex-container > * {   /* -------------------Ištrinti-----------*/
-    border: none;
 }
 
 .journey-menu-item {
@@ -389,10 +375,6 @@ ul {
     justify-content: flex-end;
 }
 
-.social.flex-container > * { /*--------------------------------Ištrinti*/
-    border: none;
-}
-
 .social .flex-container {
     gap: 23px;
     justify-content: flex-end;
@@ -428,7 +410,6 @@ ul {
 .about-us {
     margin: 268px auto 0 auto;
     max-width: 1391px;
-    border: solid 1px purple;
 }
 
 .about-us.flex-container {
@@ -486,7 +467,7 @@ ul {
 }
 
 .gallery {
-    margin-left: 80px; /* Tarpas tarp teksto ir nuotraukų */
+    margin-left: 80px;
 }
 
 /* ----------------------------------------------- About us overlay ------------------------------------------*/
@@ -903,13 +884,22 @@ ul {
 /* ------------------------------ MEDIA ----------------------------------- */
 
 @media all and (max-width:1268px) {
-    .container {
+    .container,
+    .about-us {
         padding: 0 25px;
+    }
+
+    .gallery.flex-container {
+        align-content: flex-start;
+    }
+
+    .gallery {
+        margin-left: 0;
     }
 
     .gallery-item {
         max-width: none;
-        width: 100%;
+        width: 50%;
     }
 
     .gallery-item img {
@@ -938,20 +928,15 @@ ul {
         max-height: none;
         width: calc(50% - 17px)
     }
-
-
-    /* .gallery-item {
-        width: 100%;
-    }
-    
-    .gallery-item img {
-        width: 100%;
-    } */
 }
 
 @media all and (max-width:1080px) {
     .testimonials-item {
         padding: 30px;
+    }
+
+    .gallery-item  {
+        width: 50%;
     }
 }
 
@@ -976,7 +961,7 @@ ul {
 
     .journey-image {
         max-width: none;
-        width: 100%;
+        width: 60%;
     }
 
     .journey-description {
@@ -1085,6 +1070,33 @@ ul {
         width: calc(33%);
     }
 
+    .about-us .container.flex-container {
+        flex-direction: column; 
+        width: 100%;
+        max-width: none;
+    }
+
+    .about-us-info {
+        width: 100%;
+        max-width: none;
+    }
+
+    .gallery.flex-container {
+        margin-top: 30px;
+    }
+
+    .gallery-item {
+        width: 25%;
+    }
+
+    .contacts li:first-child {
+        margin-top: 30px;
+    }
+
+    .social-footer ul.ul1 li:first-child > h3 {
+        margin-top: 30px;
+    }
+
 }
 
 @media all and (max-width:715px) {
@@ -1110,7 +1122,6 @@ ul {
     .journey-menu-item {
         width: 50%;
     }
-
 }
 
 
@@ -1121,6 +1132,10 @@ ul {
 
     .overlay-content h3 {
         margin: 0 auto;
+    }
+
+    .journey-image {
+        width: 100%;
     }
 
 }
@@ -1193,6 +1208,10 @@ ul {
     .testimonials-item {
         padding: 0;
     }
+
+    .footer-items .contacts > ul li:first-of-type {
+        margin-top: 0px;
+    }
 }
 
 @media all and (max-width:335px) {
@@ -1226,6 +1245,10 @@ ul {
 
     .testimonials-header h3 {
         font-size: 1rem;
+    }
+
+    .social-footer ul.ul1 li:first-child > h3 {
+        margin-top: 0px;
     }
 
 }

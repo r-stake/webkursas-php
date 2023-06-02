@@ -526,7 +526,7 @@
                     </ul>
                 </div>
                 <div class="social-footer">
-                    <ul>
+                    <ul class="ul1">
                         <li><h3>Bendraukime</h3></li>
                         <li class="divider-line">
                             <div class="divider-cube"></div>
@@ -538,7 +538,6 @@
                                 <li><a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a></li>
                             </ul>
                         </li>
-                        
                     </ul>
                 </div>
             </div>
