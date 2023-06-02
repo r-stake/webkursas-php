@@ -4,6 +4,15 @@
     box-sizing:border-box;
 }
 
+:root {
+    --font-family: 'Ubuntu', sans-serif;
+    --background-color-main: #011627;
+    --background-color-alt: #02223B;
+    --color-text: white;
+    --color-elements1: #00C9E0;
+    --color-elements2: #41EAD4;
+  }
+
 html {
     font-size: 16px;
 }
@@ -11,8 +20,8 @@ html {
 body {
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
-    background-color: #011627;
-    color: white;
+    background-color: var(--background-color-main);
+    color: var(--color-text);
 }
 
 ul {
@@ -22,7 +31,7 @@ ul {
 }
 
 .container {
-    max-width: 1200px;  /* 1250 jeigu su padding? */
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     padding: 0; /* Panaikina boostrapo defaultinį paddingą*/
@@ -37,11 +46,11 @@ ul {
 
 .background {
     background-position: center;
-    background-image: linear-gradient(to bottom, rgba(1, 22, 39, 0) 0%, rgba(1, 22, 39, 0) 76%, rgba(1, 22, 39, 0) 76%, #011627 100%),
+    background-image: linear-gradient(to bottom, rgba(1, 22, 39, 0) 0%, rgba(1, 22, 39, 0) 76%, rgba(1, 22, 39, 0) 76%, var(--background-color-main) 100%),
     url(../images/background/backgroud-hero2.jpg);
     background-repeat: no-repeat;
-    background-size: cover;             /* Išjungus nuotrauką atvaizduojama maksimalaus aukščio */
-    /* background-attachment: fixed;       Išjungus nuotrauką atvaizduojama maksimalaus aukščio   */
+    background-size: cover; 
+
 }
 
 .background .container {
@@ -65,7 +74,7 @@ ul {
 
 .main-nav a,
 .mobile-nav a {
-    color: white;
+    color: var(--color-text);
     text-decoration: none;
     font-size: 1rem;
     text-transform: uppercase;
@@ -78,7 +87,7 @@ ul {
 .main-nav a:active,
 .mobile-nav a:hover,
 .mobile-nav a:active {
-    color: #00C9E0;
+    color: var(--color-elements1);
 }
 
 #mMenu {
@@ -94,7 +103,7 @@ ul {
 }
 
 .mobile-nav ul {
-    background-color: #011627;
+    background-color: var(--background-color-main);
 }
 
 .mobile-nav ul li {
@@ -114,8 +123,8 @@ ul {
 }
 
 .site-header .button {
-    background-color: #00C9E0;
-    color: white;
+    background-color: var(--color-elements1);
+    color: var(--color-text);
     text-transform: uppercase;
     border: none;
     cursor: pointer;
@@ -200,7 +209,7 @@ ul {
 
 .hero-social .social i {
     font-size: 1.5rem;
-    color: #41EAD4;
+    color: var(--color-elements2);
 }
 
 /* ------------------------------- JOURNEY -------------------------------*/
@@ -238,7 +247,7 @@ ul {
 }
 
 .journey-menu .journey-menu-item button {
-    background-color: #011627;
+    background-color: var(--background-color-main);
     color: #838f98;
     border: none;
     border-bottom: solid 2px #838f98;
@@ -250,16 +259,16 @@ ul {
 
 .journey-menu .journey-menu-item button:hover {
     cursor: pointer;
-    color: #41EAD4;
-    border-bottom: solid 2px #41EAD4;
+    color: var(--color-elements2);
+    border-bottom: solid 2px var(--color-elements2);
     background-position: right;
 }
 
 
 .journey-menu .journey-menu-item button.active {
-    color: #41EAD4;
-    border-bottom: solid 2px #41EAD4;
-    background-color: #011627;
+    color: var(--color-elements2);
+    border-bottom: solid 2px var(--color-elements2);
+    background-color: var(--background-color-main);
     background-position: right;
     
 }
@@ -317,13 +326,9 @@ ul {
 .journey-description {
     align-self: center;
     max-width: 485px;
-    /* margin-left: 125px; */
-    /* margin-right: 105px; */
 }
 
 .journey-description h2 {
-    /* margin-top: 217px; */
-    /* margin-left: 124px; */
     font-weight: 700;
     font-size: 4.0625rem;
     line-height: 110%;
@@ -348,18 +353,17 @@ ul {
 }
 
 .journey-description .button {
-    background-color: #00C9E0;
-    /* padding: 31px 91px; */
+    background-color: var(--color-elements1);
     border-radius: 183px;
-    color: white;
+    color: var(--color-text);
     font-weight: bold;
     text-transform: uppercase;
     border: none;
     font-size: 0.875rem; 
     line-height: 190%;
     letter-spacing: 0.15em;
-    width: 282px; /* ---------------------------------------- Problemos */
-    height: 65px; /* ---------------------------------------- Problemos */
+    width: 282px; 
+    height: 65px; 
     cursor: pointer;
     margin-top: 45px;
 }
@@ -386,8 +390,8 @@ ul {
 #journey .section-content .content .social .cosmetic-border {
     width: 133px;
     height: 31px;
-    border-bottom: 2px solid #41EAD4;
-    border-right: 2px solid #41EAD4;
+    border-bottom: 2px solid var(--color-elements2);
+    border-right: 2px solid var(--color-elements2);
     position: relative;
     top: -33px;
 }
@@ -395,7 +399,7 @@ ul {
 
 .social i {
     font-size: 1.5rem;
-    color: #41EAD4;
+    color: var(--color-elements2);
 }
 /* -------------------------------------------------------------------------- */
 
@@ -456,8 +460,8 @@ ul {
     font-weight: 700;
     line-height: 190%;
     letter-spacing: 0.15em;
-    color: white;
-    background-color: #00C9E0;
+    color: var(--color-text);
+    background-color: var(--color-elements1);
     width: 282px;
     height: 65px;
     border-radius: 183px;
@@ -492,7 +496,7 @@ ul {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 0;
-    pointer-events: none; /* Disable pointer events to allow click events to pass through */
+    pointer-events: none;
     transition: opacity 1.5s ease;
 }
 
@@ -503,11 +507,11 @@ ul {
     bottom: 0;
     left: -44px;
     margin-bottom: 50px;
-    background-color: white;
+    background-color: var(--color-text);
     color: black;
     border-radius: 8px;
     opacity: 0;
-    transition: opacity 1.0s ease; /* Add transition property for the overlay content */
+    transition: opacity 1.0s ease;
 }
 
 .overlay-content h3 {
@@ -520,30 +524,28 @@ ul {
 
 .gallery-item.not-clicked .overlay {
     opacity: 1;
-    pointer-events: auto; /* Enable pointer events to allow click events */
+    pointer-events: auto;
     cursor: pointer;
 }
 
 .gallery-item.not-clicked .overlay-content {
-    /* visibility: hidden; */
     opacity: 0;
 }
 
 .gallery-item.clicked .overlay {
     background-color: rgba(0, 0, 0, 0);
-    pointer-events: auto; /* Enable pointer events to allow click events */
+    pointer-events: auto; 
     cursor: pointer;
 }
 
 .gallery-item.clicked .overlay-content {
     opacity: 1;
-    pointer-events: auto; /* Enable pointer events to allow click events */
-    /* visibility: hidden; */ 
+    pointer-events: auto; 
 }
 
 
 .overlay-content span {
-    color: #00C9E0;
+    color: var(--color-elements1);
 }
 
 .dots-rectangle {
@@ -600,7 +602,7 @@ ul {
 }
 
 .testimonials-item {
-    background-color: #02223B;
+    background-color: var(--background-color-alt);
     max-width: 510px;
     max-height: 504px;
     padding: 75px 74px 75px 50px;
@@ -608,7 +610,7 @@ ul {
 
 .testimonials-item i {
     font-size: 32px;
-    color: #41EAD4;
+    color: var(--color-elements2);
 }
 
 .testimonials-feedback {
@@ -649,7 +651,7 @@ ul {
     align-self: center;
 }
 
-/* Form */
+/* ------------------------------------- Form -----------------------------------------------*/
 
 .contact-form {
     margin-top: 150px;
@@ -678,7 +680,6 @@ ul {
 
 .contact-form .section-content {
     margin: 0px auto;
-    /* text-align: center; */
     max-width: 80%;
     margin-top: 75px;
 }
@@ -691,14 +692,14 @@ ul {
 .contact-form .section-content form input {
     padding: 20px 25px;
     border-radius: 5px;
-    background-color: #02223B;
-    color: white;
+    background-color: var(--background-color-alt);
+    color: var(--color-text);
     width: calc(50% - 20px);
     font-size: 1.25rem;
 }
 
 .contact-form .section-content form input::placeholder {
-    color: white;
+    color: var(--color-text);
 }
 
 .contact-form .section-content .input-row .flex-container {
@@ -721,9 +722,9 @@ ul {
 }
 
 .contact-form .section-content .input-row textarea {
-    background-color: #02223B;
+    background-color: var(--background-color-alt);
     width: calc(50% - 18px);
-    color: white;
+    color: var(--color-text);
     resize: none;
     border-radius: 5px;
     margin-right: 16px;
@@ -732,19 +733,18 @@ ul {
 }
 
 .contact-form .section-content .input-row select {
-    background-color: #02223B;
+    background-color: var(--background-color-alt);
     width: 100%;
-    color: white;
+    color: var(--color-text);
     border-radius: 5px;
     padding: 20px 25px;
     font-size: 1.25rem;
 }
 
 .contact-form .section-content .input-row button {
-    background-color: #00C9E0;
-    /* padding: 31px 91px; */
+    background-color: var(--color-elements1);
     border-radius: 183px;
-    color: white;
+    color: var(--color-text);
     font-weight: bold;
     text-transform: uppercase;
     border: none;
@@ -820,12 +820,12 @@ ul {
 }
 
 .divider-line {
-    border-bottom: 1.5px solid #41EAD4;
+    border-bottom: 1.5px solid var(--color-elements2);
     width: 50px;
 }
 
 .divider-cube {
-    border: 1.5px solid #41EAD4;
+    border: 1.5px solid var(--color-elements2);
     width: 5px;
     height: 5px;
     position: relative;
@@ -839,14 +839,14 @@ ul {
 .events li a,
 .contacts li a {
     text-decoration: none;
-    color: white;
+    color: var(--color-text);
 }
 
 .about li a:hover,
 .duk li a:hover,
 .events li a:hover,
 .contacts li a:hover {
-    color: #00C9E0;
+    color: var(--color-elements1);
 }
 
 .social-footer .flex-container {
@@ -933,10 +933,6 @@ ul {
 @media all and (max-width:1080px) {
     .testimonials-item {
         padding: 30px;
-    }
-
-    .gallery-item  {
-        width: 50%;
     }
 }
 
@@ -1158,10 +1154,6 @@ ul {
 
     .gallery-item {
         width: 50%;
-    }
-    
-    .gallery-item img {
-        width: 100%;
     }
 }
 
